@@ -1,40 +1,86 @@
-import Link from 'next/link';
-import Head from 'next/head';
-import Layout from '../../components/layout';
-
-const email = process.env.REACT_EMAIL
+import Link from "next/link";
+import Head from "next/head";
+import Layout from "../../components/layout";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
+const email = process.env.REACT_EMAIL;
 
 export default function Contact() {
+  function handleClickLinkedin() {
+    const link = 'https://www.linkedin.com/in/francesco-longo-27225096/'
+    if (typeof window !== "undefined") {
+      // browser code
+      window.open(link, "_blank");
+    }
+  }
+  function handleClickGithub() {
+    const link = 'https://github.com/francesco44Hello'
+    if (typeof window !== "undefined") {
+      // browser code
+      window.open(link, "_blank");
+    }
+  }
   return (
     <>
-    <Layout>
-     <Head>
-        <title>About page</title>
-      </Head>
-      <h1>About</h1>
-      <h2>
-        <Link href="/">Back to home</Link>
-      </h2>
-    </Layout>
-    <div className="contact-main-div">
+      <Layout>
+        <Head>
+          <title>About page</title>
+        </Head>
+        <h1>About</h1>
+        <h2>
+          <Link href="/">Back to home</Link>
+        </h2>
+      </Layout>
+      <div className="contact-main-div">
         <div className="contact-left-page">
-          <h1>Get in touch</h1>
-          <div className="form">
           <form action="https://formsubmit.co/${email}" method="POST">
-          {/* <form action=`https://formsubmit.co/${email}` method=`POST`> */}
-          <input type="text" name="name" required placeholder='Name'/>
-          <input type="email" name="email" required placeholder='Email'/>
-          <input type='text' name='text' required placeholder='Write here'></input>
-          <input type="hidden" name="_subject" value="New submission!"></input>
+            <h1>Get in touch</h1>
+            {/* <form action=`https://formsubmit.co/${email}` method=`POST`> */}
+            <input
+              type="text"
+              name="name"
+              required
+              placeholder="Name"
+              label="name"
+            />
+            <input type="email" name="email" required placeholder="Email" />
+            <input
+              type="text"
+              name="text"
+              required
+              placeholder="Write here..."
+              style={{ height: "100px" }}
+            ></input>
+            <input
+              type="hidden"
+              name="_subject"
+              value="New submission!"
+            ></input>
 
-           <button type="submit">Send</button>
-        </form>
-          </div>
+            <button type="submit">Send</button>
+          </form>
         </div>
         <div className="contact-right-page">
-          <h1>Find Francesco elsewhere</h1>
-          <p>icons</p>
+          <h1>Find me elsewhere</h1>
+          <button
+            className="github-p"
+            onClick={handleClickLinkedin}
+            style={{width: '50%'}}
+          >    
+              <BsLinkedin
+                style={{ height: "100%", width: "100%" }}
+                type="button"
+                onclick={handleClickGithub}
+              /> 
+            @francescolongo
+          </button>
+          <button className="github-p" onClick={handleClickGithub}
+            style={{width: '50%'}}>
+            <BsGithub style={{ height: "100%", width: "100%" }} />
+            @francesco44hello
+            
+          </button>
         </div>
       </div>
     </>
-  )}
+  );
+}
