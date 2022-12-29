@@ -1,0 +1,133 @@
+.main-div {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-direction: row;
+  }
+  
+  .left-page-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  
+  .name-title {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    height: 40%;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 0%;
+    margin-bottom: 8%;
+    margin-right: 0%;
+    padding: 0%;
+    /* line-height: 40px; */
+    letter-spacing: -0.02em;
+     /* border: 1px solid #000000;  */
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* flex: none; */
+    /* order: 0;
+    flex-grow: 0; */
+
+  }
+  .name-title > h1 {
+    /* display: flex; */
+    width: 100%;
+    margin: 0;
+    font-weight: 1000;
+    
+  }
+  .name-title > h2 {
+    display: flex;
+    color: #EEEEEE;
+    font-weight: 100;
+    /* padding-bottom: 15%; */
+    margin: 0;
+    
+  }
+  .name-title > h1 {
+    color: #EEEEEE;
+    margin-top: 0;
+
+    
+  }
+  .name-title > h1 > span {
+    /* display: flex; */
+    color: #00ADB5;
+    font-weight: 700;
+  }
+  .hi-element {
+    display: flex;
+    /* align-items: center;
+    align-content: center;
+    justify-content: flex-start;  */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 150px;
+    font-weight: 700;
+    /* letter-spacing: -0.02em; */
+    color: #393E46;
+    mix-blend-mode: screen;
+    opacity: 0.5;
+    color: rgba(128, 128, 128, 0.4);
+    margin: 0;
+    margin-left: 17rem;
+    padding: 0;
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+  }
+
+  .name-element > div > h1 {
+    color: #EEEEEE;
+  }
+
+
+  .description {
+    height: 30%;
+    width: 50%;
+    margin-top: 0;
+    padding-left: 5%;
+  }
+  .description > h1 {
+    color: #EEEEEE;
+    font-weight: 500;
+    margin-left: 10%;
+  }
+  
+  .description > h3 {
+    color: #EEEEEE;
+    font-weight: 500;
+    margin-left: 10%;
+    padding: 0;
+  }
+  .description > h3 {
+    color: gray;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-top: 0;
+  }
+  .description > p {
+    color: #EEEEEE;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-top: 0;
+  }
+  .img-div {
+    display: flex;
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+  }
+  .img-div > img {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+  }
