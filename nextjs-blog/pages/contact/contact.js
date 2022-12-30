@@ -2,8 +2,8 @@ import Link from "next/link";
 import Head from "next/head";
 import Layout from "../../components/layout/layout";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-const email = process.env.REACT_EMAIL;
-
+const email = process.env.REACT_APP_EMAIL;
+console.log(email)
 export default function Contact() {
   function handleClickLinkedin() {
     const link = 'https://www.linkedin.com/in/francesco-longo-27225096/'
@@ -70,7 +70,6 @@ export default function Contact() {
               <BsLinkedin
                 style={{ height: "100%", width: "100%" }}
                 type="button"
-                onclick={handleClickGithub}
               /> 
             @francescolongo
           </button>

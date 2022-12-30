@@ -11,7 +11,7 @@ export default function Layout({ children, home }) {
   return (
     <div className="navbar">
     <div className="navbar-elements">
-      <NavLink style={{ textDecoration: 'none' }} activeStyle={{fontWeight: "bold"}} className="links" href="/home/home">Home</NavLink>
+      <NavLink style={{ textDecoration: 'none' }} activestyle={{fontWeight: "bold"}} className="links" href="/home/home">Home</NavLink>
       <NavLink style={{ textDecoration: 'none' }} activeClassName="active" className="links" href="/about/about">About</NavLink>
       <NavLink style={{ textDecoration: 'none' }} activeClassName="active" className="links" href="/projects/projects">Projects</NavLink>
       <NavLink style={{ textDecoration: 'none' }} activeClassName="active" className="links" href="/contact/contact">Contact me</NavLink>
