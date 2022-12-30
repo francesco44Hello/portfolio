@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import utilStyles from '../styles/utils.module.css';
+// import utilStyles from '../styles/utils.module.css';
 import NavLink from 'next/link';
+import DownloadButton from '../DownloadButton';
 
 const name = 'Francesco';
 export const siteTitle = 'Next.js Sample Website';
@@ -14,7 +15,7 @@ export default function Layout({ children, home }) {
       <NavLink style={{ textDecoration: 'none' }} activeClassName="active" className="links" href="/about/about">About</NavLink>
       <NavLink style={{ textDecoration: 'none' }} activeClassName="active" className="links" href="/projects/projects">Projects</NavLink>
       <NavLink style={{ textDecoration: 'none' }} activeClassName="active" className="links" href="/contact/contact">Contact me</NavLink>
-      <h4>Download Cv</h4>
+      <DownloadButton style={{ textDecoration: 'none' }} className="links"/>
     </div>
    {/* <footer>
     <div><h1>footer</h1></div>

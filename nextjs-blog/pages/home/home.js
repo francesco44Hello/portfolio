@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
-import Layout from "../../components/layout";
+import Layout from "../../components/layout/layout";
 
 export default function Home() {
   return (
@@ -18,11 +18,11 @@ export default function Home() {
       </>
       <>
         <div className="name-title">
-          <h1>
+          <h1 style={{fontWeight: '900'}}>
             I'm <br></br>
             Francesco <span>Longo</span>
           </h1>
-          <h2>Full-stack developer</h2>
+          <h2 style={{fontWeight: '300'}}>Full-stack developer</h2>
         </div>
       </>
       <div className="description">

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
-import Layout from "../../components/layout";
+import Layout from "../../components/layout/layout";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 const email = process.env.REACT_EMAIL;
 
@@ -33,7 +33,7 @@ export default function Contact() {
       <div className="contact-main-div">
         <div className="contact-left-page">
           <form action="https://formsubmit.co/${email}" method="POST">
-            <h1>Get in touch</h1>
+            <h1 style={{color: 'wheat'}}>Get in touch</h1>
             {/* <form action=`https://formsubmit.co/${email}` method=`POST`> */}
             <input
               type="text"
@@ -56,15 +56,16 @@ export default function Contact() {
               value="New submission!"
             ></input>
 
-            <button type="submit">Send</button>
+            <button className='button'type="submit">Send</button>
           </form>
         </div>
         <div className="contact-right-page">
-          <h1>Find me elsewhere</h1>
+          <h1 style={{color: 'wheat'}}>Find me elsewhere</h1>
           <button
-            className="github-p"
+            
+            className="github-p button"
             onClick={handleClickLinkedin}
-            style={{width: '50%'}}
+            style={{width: '50%', borderRadius: '4px'}}
           >    
               <BsLinkedin
                 style={{ height: "100%", width: "100%" }}
@@ -73,8 +74,8 @@ export default function Contact() {
               /> 
             @francescolongo
           </button>
-          <button className="github-p" onClick={handleClickGithub}
-            style={{width: '50%'}}>
+          <button className="github-p button" onClick={handleClickGithub}
+            style={{width: '50%', borderRadius: '4px'}}>
             <BsGithub style={{ height: "100%", width: "100%" }} />
             @francesco44hello
             
