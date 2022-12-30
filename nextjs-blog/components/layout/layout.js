@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 // import utilStyles from '../styles/utils.module.css';
 import NavLink from 'next/link';
-import DownloadButton from '../downloadButton/downloadButton';
+import DownloadButton from '../downloadButton/downloadButton.js';
 
 const name = 'Francesco';
 export const siteTitle = 'Next.js Sample Website';
