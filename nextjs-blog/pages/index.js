@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Layout, { siteTitle } from "../components/layout";
+import Layout, { siteTitle } from "../components/layout/layout";
 import utilStyles from "../styles/utils.module.css";
 
 
