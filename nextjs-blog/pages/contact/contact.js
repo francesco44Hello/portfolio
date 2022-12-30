@@ -32,7 +32,7 @@ export default function Contact() {
       </Layout>
       <div className="contact-main-div">
         <div className="contact-left-page">
-          <form action="https://formsubmit.co/${email}" method="POST">
+          <form action="https://formsubmit.co/francescolongo44@gmail.com" method="POST">
             <h1 style={{color: 'wheat'}}>Get in touch</h1>
             {/* <form action=`https://formsubmit.co/${email}` method=`POST`> */}
             <input
