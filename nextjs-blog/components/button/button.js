@@ -2,7 +2,7 @@ import React from 'react';
 import { saveAs } from 'file-saver';
 import { AiOutlineLink } from "react-icons/ai";
 
-function DownloadButton({ file, fileName }) {
+function Button({ file, fileName }) {
   const handleClick = () => {
     saveAs("https://pdfhost.io/v/VIxgUdN82_cv_upToDate", 'cvFrancescoLongo');
   };
@@ -20,4 +20,4 @@ function DownloadButton({ file, fileName }) {
   );
 }
 
-export default DownloadButton;
+export default Button;
