@@ -4,6 +4,7 @@
     height: 80%;
     align-content: center;
     align-items: center;
+    font-family:'Roboto';
 }
 
 
@@ -25,9 +26,14 @@
     align-items: center;
     padding: 10%;
     font-weight: 700;
+    font-family:'Roboto';
 }
 .about-text > h1 {
     color: #00ADB5;
+    font-family:'Roboto';
+}
+.about-text > p {
+    font-family:'Roboto';
 }
 .about-img-div {
     display: flex;

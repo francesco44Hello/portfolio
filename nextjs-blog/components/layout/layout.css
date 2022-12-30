@@ -23,10 +23,13 @@
     align-items: center;
     color: wheat;
   }
+  .links:hover {
+    color: #77FF04;
+  }
   
   .links {
     color: wheat;
-    font-family: 'Inter';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     /* font-size: 30px;

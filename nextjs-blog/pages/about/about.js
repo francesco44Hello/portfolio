@@ -3,12 +3,13 @@ import Head from "next/head";
 import Layout from "../../components/layout/layout";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { handleClickGithub, handleClickLinkedin} from '../../components/functions/functions'
+import Footer from "../../components/footer/footer";
 export default function About() {
   return (
     <>
       <Layout>
         <Head>
-          <title>Who I am</title>
+          <title>About me</title>
         </Head>
         <h1>Who I am</h1>
       </Layout>
@@ -35,12 +36,7 @@ export default function About() {
       </div>
       </div>
       </div>
-      <footer>
-     {" "}
-      @- 2023 Francesco longo{" "}
-        <BsGithub style={{ height: "70%", width: "3%" }}  onClick={handleClickGithub}/>{" "}
-        <BsLinkedin style={{ height: "70%", width: "3%" }} type="button"  onClick={handleClickLinkedin}/>{" "}
-      </footer>
+      <Footer />
      
 
     </>

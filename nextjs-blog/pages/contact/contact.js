@@ -3,6 +3,7 @@ import Head from "next/head";
 import Layout from "../../components/layout/layout";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { handleClickGithub, handleClickLinkedin} from '../../components/functions/functions'
+import Footer from "../../components/footer/footer";
 
 const email = process.env.REACT_APP_EMAIL;
 
@@ -84,12 +85,7 @@ export default function Contact() {
           </button>
         </div>
       </div>
-      <footer>
-     {" "}
-      @- 2023 Francesco longo{" "}
-        <BsGithub style={{ height: "70%", width: "3%" }}  onClick={handleClickGithub}/>{" "}
-        <BsLinkedin style={{ height: "70%", width: "3%" }} type="button"  onClick={handleClickLinkedin}/>{" "}
-      </footer>
+   <Footer />
     </>
   );
 }

@@ -1,8 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
-import Layout from "../../components/layout/layout";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { handleClickGithub, handleClickLinkedin} from '../../components/functions/functions'
+import Layout from "../../components/layout/layout"
+import Footer from "../../components/footer/footer";
  
 export default function Home() {
   return (
@@ -43,12 +42,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <footer>
-     {" "}
-      @- 2023 Francesco longo{" "}
-        <BsGithub style={{ height: "70%", width: "3%" }}  onClick={handleClickGithub}/>{" "}
-        <BsLinkedin style={{ height: "70%", width: "3%" }} type="button"  onClick={handleClickLinkedin}/>{" "}
-      </footer>
+     <Footer />
     </>
   );
 }
