@@ -98,10 +98,6 @@ input:focus {
     outline-offset: 1px;
 }
 
-BsLinkedin {
-    height: 40%;
-    width: 40%;
-}
 
 .github-p {
     display: flex;

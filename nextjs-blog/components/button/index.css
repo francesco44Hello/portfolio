@@ -1,5 +1,5 @@
 .download {
-    border: 3px solid #00ADB5;
+    border: 2px solid gray;
     border-radius: 4px;
     height: 35%;
     width: 15%;
@@ -7,7 +7,8 @@
     justify-content: space-around;
     align-items: center;
     padding: 2px;
-    background-color: #1D222A;
+    background-color:  #1D222A;
+    
     color: wheat;
 }
 .download:hover {
