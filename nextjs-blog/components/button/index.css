@@ -12,7 +12,7 @@
     color: wheat;
 }
 .download:hover {
-    scale: (1);
+    color: #77FF04
 }
 AiOutlineLink {
     display: flex;

@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <div className="footer">
 <footer>
-      {" "}
+<div className="footer-div">
+{" "}
       @ - 2023 Francesco Longo{" "}
       <BsGithub
         style={{ height: "70%", width: "3%" }}
@@ -16,6 +17,8 @@ const Footer = () => {
         type="button"
         onClick={handleClickLinkedin}
       />{" "}
+</div>
+    
     </footer>
     </div>
     

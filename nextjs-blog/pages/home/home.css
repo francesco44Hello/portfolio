@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content:center ;
     height: 40%;
-    width: 100%;
+    width: 50%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -30,9 +30,7 @@
     letter-spacing: -0.02em;
      /* border: 1px solid #000000;  */
      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    /* flex: none; */
-    /* order: 0;
-    flex-grow: 0; */
+  
 
   }
   .name-title > h1 {
@@ -81,6 +79,9 @@
     padding-top: 4rem;
     padding-bottom: 0rem;
   }
+  .hi-element:hoover {
+    color: #77FF04
+  }
 
   .name-element > div > h1 {
     color: #EEEEEE;
@@ -91,62 +92,51 @@
     height: 30%;
     width: 50%;
     margin-top: 0;
-    padding-left: 5%;
+    margin-left: 10%;
+    
+    font-family: 'Roboto';
+    
   }
   .description > h1 {
     color: #EEEEEE;
     font-weight: 500;
-    margin-left: 10%;
+    /* margin-left: 10%; */
   }
   
   .description > h3 {
     color: #EEEEEE;
     font-weight: 500;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     padding: 0;
   }
   .description > h3 {
     color: gray;
     font-weight: 600;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     margin-top: 0;
+
   }
   .description > p {
     color: #EEEEEE;
     font-weight: 600;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     margin-top: 0;
+
   }
   .img-div {
     display: flex;
+    width: 50%;
     height: 100%;
-    width: 30%;
+    align-items: center;
+    align-content: center;
     justify-content: center;
-    align-items: flex-end;
-    align-content: flex-end;
   }
   .img-div > img {
     display: flex;
-    width: 70%;
+    width: 50%;
     height: 70%;
     border-radius: 30px;
     margin-bottom: 10px;
   }
-  footer {
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width: 100%;
-    /* margin-top: 42%; */
-    justify-content: flex-end;
-    align-items: center;
-    align-content: center;
-    background-color: #1D222A;
-    color: #FFFFFF;
-    /* border: 2px solid #00ADB5; */
-    border-radius: 4px;
-    /* padding: 0px 6px 0px 6px; */
-    gap: 35px;
-    font-family:'Roboto';
-  }
+
   

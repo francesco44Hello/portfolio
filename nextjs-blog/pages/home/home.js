@@ -15,7 +15,7 @@ export default function Home() {
         <div className="left-page-div">
           <>
             {" "}
-            <h1 className="hi-element">Hi.</h1>
+            <h1 className="hi-element">Hello.</h1>
           </>
           <>
             <div className="name-title">

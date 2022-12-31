@@ -21,12 +21,13 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 30%;
+    width: 35%;
     justify-content: center;
     align-items: center;
-    padding: 10%;
+    padding: 1%;
     font-weight: 700;
     font-family:'Roboto';
+    border-radius: 30px;
 }
 .about-text > h1 {
     color: #00ADB5;

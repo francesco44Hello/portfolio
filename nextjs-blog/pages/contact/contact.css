@@ -88,6 +88,7 @@ input:focus {
     text-overflow: ellipsis;
     transition: all .14s ease-out;
     white-space: nowrap;
+    font-weight: 700;
 }
 
 .button:hover {
