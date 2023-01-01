@@ -4,7 +4,12 @@ import Layout from "../../components/layout/layout";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { handleClickGithub, handleClickLinkedin} from '../../components/functions/functions'
 import Footer from "../../components/footer/footer";
+import { useEffect } from "react";
+
 export default function About() {
+  useEffect(()=> {
+    document.title = 'About'
+  },[])
   return (
     <>
       <Layout>

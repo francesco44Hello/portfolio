@@ -4,11 +4,15 @@ import Layout from "../../components/layout/layout";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { handleClickGithub, handleClickLinkedin} from '../../components/functions/functions'
 import Footer from "../../components/footer/footer";
+import { useEffect } from "react";
 
 const email = process.env.REACT_APP_EMAIL;
 
 
 export default function Contact() {
+  useEffect(()=> {
+    document.title = 'Contact'
+  },[])
   function handleClickLinkedin() {
     const link = 'https://www.linkedin.com/in/francesco-longo-27225096/'
     if (typeof window !== "undefined") {

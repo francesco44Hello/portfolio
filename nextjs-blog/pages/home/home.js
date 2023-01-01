@@ -2,8 +2,12 @@ import Link from "next/link";
 import Head from "next/head";
 import Layout from "../../components/layout/layout"
 import Footer from "../../components/footer/footer";
+import { useEffect } from "react";
  
 export default function Home() {
+  useEffect(()=> {
+    document.title = 'Home'
+  },[])
   return (
     <>
       <Layout>
