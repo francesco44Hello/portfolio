@@ -37,7 +37,7 @@ export default function Contact() {
       <div className="contact-main-div">
         <div className="contact-left-page">
           <form action={`https://formsubmit.co/${email}`} method="POST">
-            <h1 style={{color: 'wheat'}}>Get in touch</h1>
+            <h1 style={{color: 'wheat'}}>Send me an Email</h1>
             {/* <form action=`https://formsubmit.co/${email}` method=`POST`> */}
             <input
               type="text"
@@ -52,6 +52,7 @@ export default function Contact() {
               name="text"
               required
               placeholder="Write here..."
+              className="text-input"
               style={{ height: "100px" }}
             ></input>
             <input

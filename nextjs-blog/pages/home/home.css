@@ -91,10 +91,12 @@
   .description {
     height: 30%;
     width: 50%;
-    margin-top: 0;
+    margin-top: -20px;
     margin-left: 10%;
-    
+    box-shadow: -0px -8px 0px #00ADB5;
+    border-radius: 30;
     font-family: 'Roboto';
+    padding-top: 4%;
     
   }
   .description > h1 {

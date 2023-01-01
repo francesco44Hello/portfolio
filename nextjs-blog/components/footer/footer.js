@@ -1,6 +1,8 @@
 import React from "react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { FiGithub } from 'react-icons/fi'
 import { handleClickGithub, handleClickLinkedin} from '../../components/functions/functions'
+import { AiOutlineLinkedin } from 'react-icons/ai'
 const Footer = () => {
   return (
     <div className="footer">
@@ -8,12 +10,12 @@ const Footer = () => {
 <div className="footer-div">
 {" "}
       @ - 2023 Francesco Longo{" "}
-      <BsGithub
-        style={{ height: "70%", width: "3%" }}
+      <FiGithub
+        style={{ height: "70%", width: "4%" }}
         onClick={handleClickGithub}
       />{" "}
-      <BsLinkedin
-        style={{ height: "70%", width: "3%" }}
+      <AiOutlineLinkedin
+        style={{ height: "100%", width: "4%" }}
         type="button"
         onClick={handleClickLinkedin}
       />{" "}

@@ -25,6 +25,7 @@ export default function Projects() {
           <Link href="/">Back to home</Link>
         </h2>
       </Layout>
+      <h1 className="more-to-come">More to come...</h1>
       <div className="card-container">
         <Card
           title="Snap-vote"

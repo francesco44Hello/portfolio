@@ -117,3 +117,10 @@ input:focus {
     margin-top: 20px;
     font-family: 'Roboto';
 }
+.text-input {
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: center;
+    text-justify: distribute-all-lines;
+}

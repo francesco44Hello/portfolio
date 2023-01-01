@@ -5,3 +5,10 @@
     height:80%;
     width: 100%;
 }
+.more-to-come {
+    display: flex;
+    justify-content: center;
+    color: #00ADB5;
+    font-family: 'Roboto';
+    
+}
