@@ -14,6 +14,7 @@ import Footer from "../../components/footer/footer";
 import Card from "../../components/card/card";
 import { useEffect } from "react";
 
+
 export default function Projects() {
   useEffect(()=> {
     document.title = 'Projects'

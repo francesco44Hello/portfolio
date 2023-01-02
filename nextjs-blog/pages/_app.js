@@ -10,6 +10,12 @@ import '../components/cardbutton/cardbutton.css'
 import '../components/footer/footer.css'
 
 export default function App({ Component, pageProps }) {
-    return <Component {...pageProps} />;
+    return <Component {...pageProps} >
+          <meta charset="UTF-8" />
+          <meta name="description" content="Portfolio" />
+          <meta name="keywords" content="Next.js" />
+          <meta name="author" content="Francesco Longo" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </Component>;
   }
   //test
