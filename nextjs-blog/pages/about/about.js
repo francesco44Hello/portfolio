@@ -1,7 +1,13 @@
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "../../components/layout/layout";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { TbBrandJavascript, } from 'react-icons/tb'
+import { SiTypescript, SiBabel, SiExpress, SiMysql, SiPostgresql, SiVercel } from 'react-icons/si'
+import { AiFillHtml5 } from 'react-icons/ai'
+import {FaReact, FaNodeJs} from 'react-icons/fa'
+import { TbBrandNextjs } from 'react-icons/tb'
+import { DiCss3 } from 'react-icons/di'
+import { FiFigma } from 'react-icons/fi'
 import { handleClickGithub, handleClickLinkedin} from '../../components/functions/functions'
 import Footer from "../../components/footer/footer";
 import { useEffect } from "react";
@@ -35,6 +41,21 @@ export default function About() {
           communication skills and a focused approach to working in a
           structured, but creative working environment.
         </p>
+        <h1>My toolset includes: </h1>
+        <h1 style={{color: '#77FF04', fontSize:'40px', padding: '0', margin: '0'}}><TbBrandJavascript/>
+        <SiTypescript />
+        <AiFillHtml5 />
+        <FaReact />
+        <FaNodeJs />
+        <DiCss3 />
+        <SiBabel />
+        <SiExpress />
+        <SiMysql />
+        <SiPostgresql />
+        <SiVercel />
+        <FiFigma /></h1>
+     
+       
           </div>
         <div className="about-img-div">
         <img src="https://i.ibb.co/6885CTY/peep-home2.png" alt="peep-home2" border="0" className="img"/>
