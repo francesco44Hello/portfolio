@@ -2,11 +2,11 @@
     border: 2px solid gray;
     border-radius: 4px;
     height: 35%;
-    width: 15%;
+    width: 13%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    /* padding: 2px; */
+    padding: 2px;
     background-color:  #1D222A;
     color: wheat;
 }

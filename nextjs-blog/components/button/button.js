@@ -8,7 +8,7 @@ function Button({ file, fileName }) {
   };
 
   return (
-    <div className='download' >
+    <>
         <button
       href={file}
       download={fileName}
@@ -16,10 +16,10 @@ function Button({ file, fileName }) {
       className='download'
       
     > My Cv 
-      
+      <AiOutlineLink />
     </button>
-    <AiOutlineLink />
-    </div>
+    
+    </>
   
     
   );
