@@ -50,5 +50,4 @@ export default function Home() {
     </>
   );
 }
-// style={{color: #ff0000}}
-//className="hi-element-div"
+
