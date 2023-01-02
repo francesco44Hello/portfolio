@@ -52,7 +52,7 @@ export default function About() {
             <h1
               style={{
                 color: "#77FF04",
-                fontSize: "40px",
+                fontSize: "38px",
                 padding: "0",
                 margin: "0",
                 width: '100%'
@@ -63,7 +63,7 @@ export default function About() {
               <AiFillHtml5 />
               <FaReact />
               <TbBrandNextjs />
-              <FaNodeJs />
+              <FaNodeJs /> 
               <DiCss3 />
               <SiBabel />
               <SiExpress />
