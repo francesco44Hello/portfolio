@@ -54,7 +54,7 @@ function handleClickGithub() {
     //   // browser code
     //   window.open(link, "_blank");
     // }
-    alert('Unfortunately not yet depoyed')
+    alert('Unfortunately not yet deployed')
   }
 
   export {
