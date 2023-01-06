@@ -11,8 +11,6 @@ const Card = ({title,onClick, handleRepo,img }) => {
             <div className='bottom-card'>
             <h2>{title}</h2>
             <div className='button-container'>
-            
-            
             <CardButton className='button' onClick={onClick} onClickRepo={handleRepo}>Visit me</CardButton>
             </div>
             </div>

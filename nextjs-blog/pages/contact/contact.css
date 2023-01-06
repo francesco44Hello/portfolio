@@ -3,7 +3,7 @@
     height: 80%;
     width: 100%;
     color: #EEEEEE;
-    font-family:'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .contact-left-page {
@@ -115,7 +115,7 @@ input:focus {
     padding-right: 10%;
     padding-left: 0%;
     margin-top: 20px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 .text-input {
     display: flex;

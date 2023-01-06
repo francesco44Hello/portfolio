@@ -26,7 +26,7 @@ footer {
     border-radius: 4px;
     /* padding: 0px 6px 0px 6px; */
     gap: 35px;
-    font-family:'Roboto';
+    font-family: 'Roboto', sans-serif;
     margin-right: 2px;
     
   }
