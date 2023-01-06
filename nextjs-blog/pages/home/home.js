@@ -16,6 +16,7 @@ export default function Home() {
       </Layout>
       <Head>
           <title>Home page</title>
+          <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="main-div">
         <div className="left-page-div">
