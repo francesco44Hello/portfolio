@@ -11,12 +11,13 @@ export default function Home() {
   
   return (
     <>
-      <Layout>
-      
-      </Layout>
+      <Layout></Layout>
       <Head>
-          <title>Home page</title>
-          <link rel="icon" href="/favicon.ico" />
+        <title>Home page</title>
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="title, meta, nextjs" />
+        <meta name="author" content="Francesco Longo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className="main-div">
         <div className="left-page-div">
@@ -49,7 +50,7 @@ export default function Home() {
           />
         </div>
       </div>
-     <Footer />
+      <Footer />
     </>
   );
 }
