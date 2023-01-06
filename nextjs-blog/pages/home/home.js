@@ -5,16 +5,18 @@ import Footer from "../../components/footer/footer";
 import { useEffect } from "react";
  
 export default function Home() {
-  useEffect(()=> {
-    document.title = 'Home'
-  },[])
+  // useEffect(()=> {
+  //   document.title = 'Home'
+  // },[])
+  
   return (
     <>
       <Layout>
-        <Head>
-          <title>About page</title>
-        </Head>
+      
       </Layout>
+      <Head>
+          <title>Home page</title>
+      </Head>
       <div className="main-div">
         <div className="left-page-div">
           <>

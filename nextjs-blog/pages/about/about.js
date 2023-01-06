@@ -18,17 +18,15 @@ import Footer from "../../components/footer/footer";
 import { useEffect } from "react";
 
 export default function About() {
-  useEffect(() => {
-    document.title = "About";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "About";
+  // }, []);
   return (
     <>
-      <Layout>
-        <Head>
+      <Layout></Layout>
+      <Head>
           <title>About me</title>
-        </Head>
-        <h1>Who I am</h1>
-      </Layout>
+      </Head>
       <div className="first-main-div">
         <div className="main-about-div">
           <div className="about-text">

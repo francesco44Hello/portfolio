@@ -12,20 +12,16 @@ import Card from "../../components/card/card";
 import { useEffect } from "react";
 
 export default function Projects() {
-  useEffect(() => {
-    document.title = "Projects";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Projects";
+  // }, []);
   return (
     <>
       <Layout>
-        <Head>
-          <title>About page</title>
-        </Head>
-        <h1>About</h1>
-        <h2>
-          <Link href="/">Back to home</Link>
-        </h2>
       </Layout>
+      <Head>
+          <title>Projects</title>
+      </Head>
       <h1 className="more-to-come">More to come...</h1>
       <div className="card-container">
         <Card
