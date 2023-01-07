@@ -49,15 +49,10 @@ function handleClickGithub() {
     }
   }
   function weatherClick() {
-    // const link = 'https://github.com/francesco44Hello/Weather_project_TypeScript'
-    // if (typeof window !== "undefined") {
-    //   // browser code
-    //   window.open(link, "_blank");
-    // }
     alert('Unfortunately not yet deployed')
   }
   function buttonClick() {
-    const link = 'https://pdfhost.io/v/OEw1qCLhs_CV_Francesco_Longo_2023'
+    const link = 'https://pdfhost.io/v/NY5ZKUflO_Cv_PDF'
     if (typeof window !== "undefined") {
       // browser code
       window.open(link, "_blank");
