@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Head from "next/head";
-import Layout from "../../components/layout/layout";
+import Layout from "../components/layout/layout";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import Footer from "../../components/footer/footer";
+import Footer from "../components/footer/footer";
 
 
 const email = process.env.REACT_APP_EMAIL;

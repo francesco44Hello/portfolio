@@ -1,14 +1,14 @@
 import Link from "next/link";
 import Head from "next/head";
-import Layout from "../../components/layout/layout";
+import Layout from "../components/layout/layout";
 import {
   snapvoteClick,
   weatherClickRepo,
   snapvoteClickRepo,
   weatherClick,
-} from "../../components/functions/functions";
-import Footer from "../../components/footer/footer";
-import Card from "../../components/card/card";
+} from "../components/functions/functions";
+import Footer from "../components/footer/footer";
+import Card from "../components/card/card";
 import { TbBrandJavascript } from "react-icons/tb";
 import {
   SiTypescript,

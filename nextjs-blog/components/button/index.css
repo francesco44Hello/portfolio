@@ -1,5 +1,5 @@
 .download {
-    border: 2px solid #1D222A;
+    border: 3px solid grey;
     border-radius: 4px;
     height: 45%;
     width: 13%;
@@ -7,14 +7,14 @@
     justify-content: space-around;
     align-items: center;
     padding: 2px;
-    background-color:  #00ADB5;
-    color: #1D222A;
+    background-color:  #1D222A;
+    color: wheat;
     font-weight: 900;
 }
 .download:hover {
-    /* color: #77FF04 */
-    border: 2px solid #77FF04;
+    border: 3px solid #77FF04;
     cursor: pointer;
+    transform: translate(-4px, -4px);
 }
 .download > button {
     display: flex;

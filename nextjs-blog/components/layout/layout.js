@@ -10,7 +10,7 @@ export default function Layout() {
           style={{ textDecoration: "none" }}
           activeStyle={{ color: "red" }}
           className="links"
-          href="/home/home"
+          href="/home"
         >
           Home
         </NavLink>
@@ -18,7 +18,7 @@ export default function Layout() {
           style={{ textDecoration: "none" }}
           activeclassname="active"
           className="links"
-          href="/about/about"
+          href="/about"
         >
           About
         </NavLink>
@@ -26,7 +26,7 @@ export default function Layout() {
           style={{ textDecoration: "none" }}
           activeclassname="active"
           className="links"
-          href="/projects/projects"
+          href="/projects"
         >
           Projects
         </NavLink>
@@ -34,7 +34,7 @@ export default function Layout() {
           style={{ textDecoration: "none" }}
           activeclassname="active"
           className="links"
-          href="/contact/contact"
+          href="/contact"
         >
           Contact me
         </NavLink>

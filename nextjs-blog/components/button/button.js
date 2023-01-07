@@ -14,7 +14,7 @@ function Button({ file, fileName, handleClick }) {
       <button onClick={handleClick} className="download ">
         {" "}
         My Cv
-        {/* <AiOutlineLink /> */}
+        <AiOutlineLink />
       </button>
    
   );
