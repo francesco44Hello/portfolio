@@ -56,12 +56,19 @@ function handleClickGithub() {
     // }
     alert('Unfortunately not yet deployed')
   }
-
+  function buttonClick() {
+    const link = 'https://pdfhost.io/v/OEw1qCLhs_CV_Francesco_Longo_2023'
+    if (typeof window !== "undefined") {
+      // browser code
+      window.open(link, "_blank");
+    }
+  }
   export {
     handleClickGithub,
     handleClickLinkedin,
     snapvoteClick,
     weatherClickRepo,
     snapvoteClickRepo,
-    weatherClick
+    weatherClick,
+    buttonClick
   }

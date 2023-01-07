@@ -2,16 +2,15 @@ import Link from "next/link";
 import Head from "next/head";
 import Layout from "../../components/layout/layout"
 import Footer from "../../components/footer/footer";
-import { useEffect } from "react";
+
  
 export default function Home() {
-  // useEffect(()=> {
-  //   document.title = 'Home'
-  // },[])
   
   return (
     <>
+      
       <Layout></Layout>
+      
       <Head>
         <title>Home page</title>
         <meta charset="UTF-8" />
@@ -19,6 +18,8 @@ export default function Home() {
         <meta name="author" content="Francesco Longo" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+      
+     
       <div className="main-div">
         <div className="left-page-div">
           <>

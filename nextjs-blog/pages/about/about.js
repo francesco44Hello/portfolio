@@ -1,31 +1,17 @@
 import Head from "next/head";
 import Layout from "../../components/layout/layout";
-import { TbBrandJavascript } from "react-icons/tb";
-import {
-  SiTypescript,
-  SiBabel,
-  SiExpress,
-  SiMysql,
-  SiPostgresql,
-  SiVercel,
-} from "react-icons/si";
-import { AiFillHtml5 } from "react-icons/ai";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
-import { DiCss3 } from "react-icons/di";
-import { FiFigma } from "react-icons/fi";
 import Footer from "../../components/footer/footer";
-import { useEffect } from "react";
 
 export default function About() {
-  // useEffect(() => {
-  //   document.title = "About";
-  // }, []);
   return (
     <>
       <Layout></Layout>
       <Head>
           <title>About me</title>
+          <meta charset="UTF-8" />
+        <meta name="keywords" content="title, meta, nextjs" />
+        <meta name="author" content="Francesco Longo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className="first-main-div">
         <div className="main-about-div">
@@ -46,30 +32,6 @@ export default function About() {
               analytical and communication skills and a focused approach to
               working in a structured, but creative working environment.
             </p>
-            <h1>My toolset includes: </h1>
-            <h1
-              style={{
-                color: "#77FF04",
-                fontSize: "38px",
-                padding: "0",
-                margin: "0",
-                width: '100%'
-              }}
-            >
-              <TbBrandJavascript />
-              <SiTypescript />
-              <AiFillHtml5 />
-              <FaReact />
-              <TbBrandNextjs />
-              <FaNodeJs /> 
-              <DiCss3 />
-              <SiBabel />
-              <SiExpress />
-              <SiMysql />
-              <SiPostgresql />
-              <SiVercel />
-              <FiFigma />
-            </h1>
           </div>
           <div className="about-img-div">
             <img

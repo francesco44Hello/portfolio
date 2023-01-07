@@ -3,14 +3,11 @@ import Head from "next/head";
 import Layout from "../../components/layout/layout";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import Footer from "../../components/footer/footer";
-import { useEffect } from "react";
+
 
 const email = process.env.REACT_APP_EMAIL;
 
 export default function Contact() {
-  // useEffect(() => {
-  //   document.title = "Contact";
-  // }, []);
   function handleClickLinkedin() {
     const link = "https://www.linkedin.com/in/francesco-longo-27225096/";
     if (typeof window !== "undefined") {
@@ -31,6 +28,10 @@ export default function Contact() {
       
       <Head>
           <title>Contact page</title>
+          <meta charset="UTF-8" />
+        <meta name="keywords" content="title, meta, nextjs" />
+        <meta name="author" content="Francesco Longo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className="contact-main-div">
         <div className="contact-left-page">

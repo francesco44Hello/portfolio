@@ -9,6 +9,10 @@ export default function Home() {
     <>
       <Head>
         <title>{siteTitle}</title>
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="title, meta, nextjs" />
+        <meta name="author" content="Francesco Longo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
      <Layout></Layout>
 

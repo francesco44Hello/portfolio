@@ -11,11 +11,11 @@ const Footer = () => {
 {" "}
       @ - 2023 Francesco Longo{" "}
       <FiGithub
-        style={{ height: "70%", width: "4%" }}
+        style={{ height: "70%", width: "4%" ,cursor: 'pointer'}}
         onClick={handleClickGithub}
       />{" "}
       <AiOutlineLinkedin
-        style={{ height: "100%", width: "4%" }}
+        style={{ height: "100%", width: "4%", cursor: 'pointer'}}
         type="button"
         onClick={handleClickLinkedin}
       />{" "}

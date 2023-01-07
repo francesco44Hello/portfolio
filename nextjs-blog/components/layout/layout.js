@@ -1,5 +1,6 @@
 import NavLink from "next/link";
 import Button from "../button/button.js";
+import { buttonClick } from "../functions/functions.js";
 
 export default function Layout() {
   return (
@@ -37,8 +38,9 @@ export default function Layout() {
         >
           Contact me
         </NavLink>
-        <Button style={{ textDecoration: "none" }} className="links" />
+        <Button className="links"  handleClick={buttonClick}/>
       </div>
     </div>
   );
 }
+// style={{ textDecoration: "none" }} 

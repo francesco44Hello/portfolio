@@ -2,26 +2,21 @@ import React from 'react';
 import { saveAs } from 'file-saver';
 import { AiOutlineLink } from "react-icons/ai";
 
-function Button({ file, fileName }) {
-  const handleClick = () => {
-    saveAs("https://pdfhost.io/v/OEw1qCLhs_CV_Francesco_Longo_2023", 'cvFrancescoLongo');
-  };
+function Button({ file, fileName, handleClick }) {
+  // const handleClick = () => {
+  //   saveAs("https://pdfhost.io/v/OEw1qCLhs_CV_Francesco_Longo_2023", 'cvFrancescoLongo');
+  // href={file}
+  // download={fileName}
+  // };
 
   return (
-    <>
-        <button
-      href={file}
-      download={fileName}
-      onClick={handleClick}
-      className='download'
-      
-    > My Cv 
-      <AiOutlineLink />
-    </button>
-    
-    </>
-  
-    
+   
+      <button onClick={handleClick} className="download ">
+        {" "}
+        My Cv
+        {/* <AiOutlineLink /> */}
+      </button>
+   
   );
 }
 
