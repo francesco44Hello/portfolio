@@ -23,10 +23,15 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { DiCss3 } from "react-icons/di";
 import { FiFigma } from "react-icons/fi";
+import { Audio } from  'react-loader-spinner'
 
 export default function Projects() {
   return (
     <>
+
+
+
+
       <Layout>
       </Layout>
       <Head>

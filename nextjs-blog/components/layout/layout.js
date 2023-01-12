@@ -8,9 +8,9 @@ export default function Layout() {
       <div className="navbar-elements">
         <NavLink
           style={{ textDecoration: "none" }}
-          activeStyle={{ color: "red" }}
+          // activeStyle={{ color: "red" }}
           className="links"
-          href="/home"
+          href="/"
         >
           Home
         </NavLink>
