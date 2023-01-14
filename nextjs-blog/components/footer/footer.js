@@ -14,7 +14,7 @@ const Footer = () => {
         <h2>
           This website is {" "}
           <a
-            href="https://www.websitecarbon.com/website/next-app-d2gb-vercel-app-home/"
+            href="https://www.websitecarbon.com/website/francesco-longo-vercel-app/"
             alt="link"
             target='_blank'
             style={{ color:'#eeeeee', display:'flex',marginLeft:'0.5rem', fontWeight:'400' }}
