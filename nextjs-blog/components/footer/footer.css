@@ -46,6 +46,7 @@ footer {
     padding: 0;
     padding-top: 3%;
     font-weight: 300;
+    font-size: medium;
   }
   .links-footer {
     display: flex;

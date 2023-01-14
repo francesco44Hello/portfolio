@@ -1,0 +1,22 @@
+.main-div-projects {
+    height: 80%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper {
+    width: 70%;
+    height: 60%;
+    background-color: gray;
+    color: aliceblue;
+    display: flex;
+    
+  } 
+ .swiper-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+  } 

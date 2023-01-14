@@ -4,7 +4,7 @@ import { snapvoteClick } from '../functions/functions'
 const Card = ({title,onClick, handleRepo,img }) => {
     
     return (
-        <div className='card'>
+        <div className='card '>
             <>
             <img src={img}></img>
             </>

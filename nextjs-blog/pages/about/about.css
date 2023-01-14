@@ -52,4 +52,8 @@
 }
 .about-img-div > img {
     border-radius: 30px;
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 400px;
+    max-height: 400px;
 }

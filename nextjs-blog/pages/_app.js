@@ -8,6 +8,7 @@ import "../components/button/index.css";
 import "../components/card/card.css";
 import "../components/cardbutton/cardbutton.css";
 import "../components/footer/footer.css";
+import "../styles/test.css"
 
 
 export default function App({ Component, pageProps }) {

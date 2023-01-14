@@ -133,8 +133,10 @@
   }
   .img-div > img {
     display: flex;
-    width: 50%;
-    height: 65%;
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 400px;
+    max-height: 400px;
     border-radius: 30px;
     margin-bottom: 10px;
   }
