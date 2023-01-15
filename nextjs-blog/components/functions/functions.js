@@ -49,7 +49,11 @@ function handleClickGithub() {
     }
   }
   function weatherClick() {
-    alert('Unfortunately not yet deployed')
+    const link = 'https://francesco-weather.vercel.app/'
+    if (typeof window !== "undefined") {
+      // browser code
+      window.open(link, "_blank");
+    }
   }
   function buttonClick() {
     const link = 'https://pdfhost.io/v/ZWzDkdmIl_Cv_FrancescoLongo'
