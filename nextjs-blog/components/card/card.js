@@ -6,7 +6,7 @@ const Card = ({title,onClick, handleRepo,img }) => {
     return (
         <div className='card '>
             <>
-            <img src={img}></img>
+            <img src={img} alt='project-picture'></img>
             </>
             <div className='bottom-card'>
             <h2>{title}</h2>

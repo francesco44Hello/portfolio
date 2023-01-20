@@ -12,13 +12,20 @@ export default function Home() {
       <Layout></Layout>
       
       <Head>
-        <title>Home page</title>
-        <meta charset="UTF-8" />
+      <title>Home page</title>
+      
+      <html lang="en">
+      <meta charset="UTF-8" />
         <meta name="keywords" content="title, meta, nextjs" />
         <meta name="author" content="Francesco Longo" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
+        <meta name="description" content='Portfolio' />
+      </html>
       </Head>
+        
+   
+        
+     
       <div className="main-div">
         <div className="left-page-div">
           <>

@@ -36,7 +36,7 @@ export default function Contact() {
       <div className="contact-main-div">
         <div className="contact-left-page">
           <form action={`https://formsubmit.co/francescolongo44@gmail.com`} method="POST">
-            <h1 style={{ color: "wheat" }}>Send me an Email</h1>
+            <h1 style={{ color: "#eeeeee" }}>Send me an Email</h1>
             <input
               type="text"
               name="name"
@@ -65,7 +65,7 @@ export default function Contact() {
           </form>
         </div>
         <div className="contact-right-page">
-          <h1 style={{ color: "wheat" }}>Find me elsewhere</h1>
+          <h1 style={{ color: "#eeeeee" }}>Find me elsewhere</h1>
           <button
             className="github-p button"
             onClick={handleClickLinkedin}
