@@ -14,13 +14,13 @@ export default function Home() {
       <Head>
       <title>Home page</title>
       
-      <html lang="en">
+      {/* <html lang="en"> */}
       <meta charset="UTF-8" />
         <meta name="keywords" content="title, meta, nextjs" />
         <meta name="author" content="Francesco Longo" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content='Portfolio' />
-      </html>
+      {/* </html> */}
       </Head>
         
    
