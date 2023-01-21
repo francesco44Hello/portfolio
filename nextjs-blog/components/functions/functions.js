@@ -56,7 +56,7 @@ function handleClickGithub() {
     }
   }
   function buttonClick() {
-    const link = 'https://pdfhost.io/v/ZWzDkdmIl_Cv_FrancescoLongo'
+    const link = 'https://pdfhost.io/v/DnL9I.pyj_Cv_Francesco_Longocompressed'
     if (typeof window !== "undefined") {
       // browser code
       window.open(link, "_blank");
