@@ -16,14 +16,14 @@ export default function Layout() {
     </NavLink>
    
       <div className="navbar-elements">
-        <NavLink
+        {/* <NavLink
           style={{ textDecoration: "none" }}
           // activeStyle={{ color: "red" }}
           className="links"
           href="/"
         >
           Home
-        </NavLink>
+        </NavLink> */}
         <NavLink
           style={{ textDecoration: "none" }}
           activeclassname="active"
@@ -46,7 +46,7 @@ export default function Layout() {
           className="links"
           href="/contact"
         >
-          Contact me
+          Contacts
         </NavLink>
         <Button className="links"  handleClick={buttonClick}/>
       </div>
