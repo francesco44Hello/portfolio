@@ -27,7 +27,7 @@ export default function Layout() {
         <NavLink
           style={{ textDecoration: "none" }}
           activeclassname="active"
-          className="links"
+          className="links Menu-items"
           href="/about"
         >
           About
@@ -35,7 +35,7 @@ export default function Layout() {
         <NavLink
           style={{ textDecoration: "none" }}
           activeclassname="active"
-          className="links"
+          className="links Menu-items"
           href="/projects"
         >
           Projects
@@ -43,12 +43,12 @@ export default function Layout() {
         <NavLink
           style={{ textDecoration: "none" }}
           activeclassname="active"
-          className="links"
+          className="links Menu-items"
           href="/contact"
         >
           Contacts
         </NavLink>
-        <Button className="links"  handleClick={buttonClick}/>
+        <Button className="download"  handleClick={buttonClick}/>
       </div>
     </div>
   );

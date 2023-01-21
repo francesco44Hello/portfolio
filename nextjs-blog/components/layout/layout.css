@@ -24,7 +24,7 @@
     justify-content:flex-end;
     gap: 2rem;
     align-items: center;
-    /* color: var(--white); */
+    color: var(--main-blu);
   }
   .links:hover {
     color: #77FF04;

@@ -3,6 +3,8 @@ import Head from "next/head";
 import Layout from "../components/layout/layout";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import Footer from "../components/footer/footer";
+import Button from "../components/button/button";
+import { buttonClick } from "../components/functions/functions";
 
 
 const email = process.env.REACT_APP_EMAIL;
@@ -85,7 +87,10 @@ export default function Contact() {
             <BsGithub style={{ height: "100%", width: "100%" }} />
             @francesco44hello
           </button>
+          <h1>Look at my CV</h1>
+          <Button className="button"  handleClick={buttonClick}/>
         </div>
+       
       </div>
       <Footer />
     </>

@@ -9,6 +9,8 @@ import "../components/card/card.css";
 import "../components/cardbutton/cardbutton.css";
 import "../components/footer/footer.css";
 import "../styles/test.css"
+import "../components/menu/old.css"
+import '../components/menu/menutwo.css'
 
 
 export default function App({ Component, pageProps }) {

@@ -2,7 +2,7 @@ import React from 'react';
 import { saveAs } from 'file-saver';
 import { AiOutlineLink } from "react-icons/ai";
 
-function Button({ file, fileName, handleClick }) {
+function Button({ file, fileName, handleClick,className }) {
   // const handleClick = () => {
   //   saveAs("https://pdfhost.io/v/OEw1qCLhs_CV_Francesco_Longo_2023", 'cvFrancescoLongo');
   // href={file}
@@ -11,7 +11,7 @@ function Button({ file, fileName, handleClick }) {
 
   return (
    
-      <button onClick={handleClick} className="download ">
+      <button onClick={handleClick} className={className}>
         {" "}
         My Cv
         <AiOutlineLink />
