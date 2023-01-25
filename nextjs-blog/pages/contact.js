@@ -45,14 +45,14 @@ export default function Contact() {
               label="name"
             />
             <input type="email" name="email" required placeholder="Email" />
-            <input
+            <textarea
               type="text"
               name="text"
               required
               placeholder="Write here..."
               className="text-input"
               style={{ height: "100px" }}
-            ></input>
+            ></textarea>
             <input
               type="hidden"
               name="_subject"
