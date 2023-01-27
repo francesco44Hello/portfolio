@@ -62,6 +62,20 @@ function handleClickGithub() {
       window.open(link, "_blank");
     }
   }
+  function petbrb() {
+    const link = 'https://petbrb.vercel.app/'
+    if (typeof window !== "undefined") {
+      // browser code
+      window.open(link, "_blank");
+    }
+  }
+  function petbrbGithub() {
+    const link = 'https://github.com/SchoolOfCode/bc13_final-project_front-end-refactor'
+    if (typeof window !== "undefined") {
+      // browser code
+      window.open(link, "_blank");
+    }
+  }
   export {
     handleClickGithub,
     handleClickLinkedin,
@@ -69,5 +83,7 @@ function handleClickGithub() {
     weatherClickRepo,
     snapvoteClickRepo,
     weatherClick,
-    buttonClick
+    buttonClick,
+    petbrb,
+    petbrbGithub
   }

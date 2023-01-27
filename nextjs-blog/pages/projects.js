@@ -6,6 +6,8 @@ import {
   weatherClickRepo,
   snapvoteClickRepo,
   weatherClick,
+  petbrb,
+  petbrbGithub
 } from "../components/functions/functions";
 import Footer from "../components/footer/footer";
 import Card from "../components/card/card";
@@ -54,6 +56,12 @@ export default function Projects() {
           onClick={weatherClick}
           handleRepo={weatherClickRepo}
           img="https://i.ibb.co/QkBqBsn/Image-31-12-2022-at-16-21.png"
+        />
+         <Card
+          title="PetBrB"
+          onClick={petbrb}
+          handleRepo={petbrbGithub}
+          img="https://i.ibb.co/GFwRCp8/D754-A2-F8-5-A2-B-4-C9-D-A1-D2-B974-ADDD5-D9-C.jpg"
         />
       </div>
       <h1 className="toolset">My toolset includes: </h1>
