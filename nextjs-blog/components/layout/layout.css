@@ -38,8 +38,35 @@
     /* font-size: 30px;
     line-height: 36px; */
   }
+  .links {
+    display: inline-block;
+    position: relative;
+    /* color: #0087ca; */
+  }
   
-  .active {
+  .links::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .links:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  /* .links {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } */
+  
+  .links:active{
     color: black;
     scale: (1.2);
   }
