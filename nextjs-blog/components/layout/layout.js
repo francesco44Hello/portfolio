@@ -14,7 +14,7 @@ export default function Layout() {
           href="/" >
       {/* <img src='https://i.ibb.co/NrP5ZDM/portfolio-Logo.png' alt='logo' 
       style={{ width: '6rem', height: '4.5rem'}} ></img> */}
-      <Image src='/portfolio_Logo.png' width={90} height={70}></Image>
+      <Image src='/portfolio_Logo.png' width={1000} height={1000} className='logo-image'></Image>
     {/* <Image  src='https://i.ibb.co/T2SqB7f/logo-color.png' width={90} height={70}/> */}
     </Link>
    
