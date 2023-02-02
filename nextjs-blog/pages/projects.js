@@ -49,19 +49,19 @@ export default function Projects() {
           title="Snap-vote"
           onClick={snapvoteClick}
           handleRepo={snapvoteClickRepo}
-          img="https://i.ibb.co/fMG4LG9/91-B83712-E5-A4-4-D72-9784-9-BD17-A9-DB383.jpg"
+          img="/snapvote.png"
         ></Card>
         <Card
           title="Weather App"
           onClick={weatherClick}
           handleRepo={weatherClickRepo}
-          img="https://i.ibb.co/QkBqBsn/Image-31-12-2022-at-16-21.png"
+          img="/weather-app.png"
         />
          <Card
           title="PetBrB"
           onClick={petbrb}
           handleRepo={petbrbGithub}
-          img="https://i.ibb.co/GFwRCp8/D754-A2-F8-5-A2-B-4-C9-D-A1-D2-B974-ADDD5-D9-C.jpg"
+          img="/petbrb.png"
         />
       </div>
       <h1 className="toolset">My toolset includes: </h1>

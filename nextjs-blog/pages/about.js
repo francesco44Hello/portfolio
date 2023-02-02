@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/layout/layout";
 import Footer from "../components/footer/footer";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -34,12 +35,13 @@ export default function About() {
             </p>
           </div>
           <div className="about-img-div">
-            <img
+            {/* <img
               src="https://i.ibb.co/6885CTY/peep-home2.png"
               alt="peep-home2"
               border="0"
               className="img"
-            />
+            /> */}
+            <Image src='/peep-home2.png'  width={1000} height={1000}></Image>
           </div>
         </div>
       </div>

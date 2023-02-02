@@ -1,12 +1,12 @@
 import React from 'react'
 import CardButton from '../cardbutton/cardbutton'
-import { snapvoteClick } from '../functions/functions'
+import Image from 'next/image'
 const Card = ({title,onClick, handleRepo,img }) => {
     
     return (
         <div className='card '>
             <>
-            <img src={img} alt='project-picture'></img>
+            <Image src={img} width={1000} height={1000} alt='project-picture'></Image>
             </>
             <div className='bottom-card'>
             <h2>{title}</h2>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Layout from "../components/layout/layout"
 import Footer from "../components/footer/footer";
+import Image from "next/image";
 
  
 export default function Home() {
@@ -50,14 +51,16 @@ export default function Home() {
           </div>
         </div>
         <div className="img-div">
-          <img
+          {/* <img
             src="https://i.ibb.co/BfGHzfw/peep-home.png"
             alt="peep-home"
             border="0"
-          />
+          /> */}
+          <Image src='/peep-home.png'  width={1000} height={1000}></Image>
         </div>
       </div>
       <Footer />
     </>
+    
   );
 }
