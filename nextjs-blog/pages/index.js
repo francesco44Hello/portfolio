@@ -1,32 +1,23 @@
-import Link from "next/link";
 import Head from "next/head";
-import Layout from "../components/layout/layout"
+import Layout from "../components/layout/layout";
 import Footer from "../components/footer/footer";
 import Image from "next/image";
 
- 
 export default function Home() {
-  
   return (
     <>
-      
       <Layout></Layout>
-      
+
       <Head>
-      <title>Home page</title>
-      
-      {/* <html lang="en"> */}
-      <meta charset="UTF-8" />
+        <title>Home page</title>
+
+        <meta charset="UTF-8" />
         <meta name="keywords" content="title, meta, nextjs" />
         <meta name="author" content="Francesco Longo" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content='Portfolio' />
-      {/* </html> */}
+        <meta name="description" content="Portfolio" />
       </Head>
-        
-   
-        
-     
+
       <div className="main-div">
         <div className="left-page-div">
           <>
@@ -51,16 +42,10 @@ export default function Home() {
           </div>
         </div>
         <div className="img-div">
-          {/* <img
-            src="https://i.ibb.co/BfGHzfw/peep-home.png"
-            alt="peep-home"
-            border="0"
-          /> */}
-          <Image src='/peep-home.png'  width={1000} height={1000}></Image>
+          <Image src="/peep-home.png" width={1000} height={1000}></Image>
         </div>
       </div>
       <Footer />
     </>
-    
   );
 }

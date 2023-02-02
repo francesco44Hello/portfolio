@@ -8,8 +8,8 @@ export default function About() {
     <>
       <Layout></Layout>
       <Head>
-          <title>About me</title>
-          <meta charset="UTF-8" />
+        <title>About me</title>
+        <meta charset="UTF-8" />
         <meta name="keywords" content="title, meta, nextjs" />
         <meta name="author" content="Francesco Longo" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,13 +35,7 @@ export default function About() {
             </p>
           </div>
           <div className="about-img-div">
-            {/* <img
-              src="https://i.ibb.co/6885CTY/peep-home2.png"
-              alt="peep-home2"
-              border="0"
-              className="img"
-            /> */}
-            <Image src='/peep-home2.png'  width={1000} height={1000}></Image>
+            <Image src="/peep-home2.png" width={1000} height={1000}></Image>
           </div>
         </div>
       </div>
