@@ -8,28 +8,15 @@ import Image from 'next/image'
 export default function Layout() {
   return (
     <div className="navbar">
-    <Link    style={{ textDecoration: "none" }}
-          // activeStyle={{ color: "red" }}
-          // className="links"
+    <Link    style={{ textDecoration: "none", marginLeft: '30px' }}
           href="/" >
-      {/* <img src='https://i.ibb.co/NrP5ZDM/portfolio-Logo.png' alt='logo' 
-      style={{ width: '6rem', height: '4.5rem'}} ></img> */}
-      <Image src='/portfolio_Logo.png' width={1000} height={1000} className='logo-image'></Image>
-    {/* <Image  src='https://i.ibb.co/T2SqB7f/logo-color.png' width={90} height={70}/> */}
+      <Image src='/portfolio_Logo.png' width={1000} height={1000} className='logo-image' alt="logo"></Image>
     </Link>
    
       <div className="navbar-elements">
-        {/* <NavLink
-          style={{ textDecoration: "none" }}
-          // activeStyle={{ color: "red" }}
-          className="links"
-          href="/"
-        >
-          Home
-        </NavLink> */}
         <Link
           style={{ textDecoration: "none" }}
-          activeClassName="active"
+          // activeClassName="active"
           className="links"
           href="/about"
         >
@@ -37,7 +24,7 @@ export default function Layout() {
         </Link>
         <Link
           style={{ textDecoration: "none" }}
-          activeClassName="active"
+          // activeClassName="active"
           className="links"
           href="/projects"
         >
@@ -45,7 +32,7 @@ export default function Layout() {
         </Link>
         <Link
           style={{ textDecoration: "none" }}
-          activeClassName="active"
+          // activeClassName="active"
           className="links"
           href="/contact"
         >
@@ -56,4 +43,3 @@ export default function Layout() {
     </div>
   );
 }
-// style={{ textDecoration: "none" }} 

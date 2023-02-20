@@ -20,7 +20,7 @@ const Footer = () => {
               style={{
                 color: "#eeeeee",
                 display: "flex",
-                marginLeft: "0.5rem",
+                marginLeft: "5px",
                 fontWeight: "400",
               }}
             >
@@ -31,11 +31,11 @@ const Footer = () => {
             {" "}
             @ - 2023 Francesco Longo{" "}
             <FiGithub
-              style={{ height: "60%", width: "20%", cursor: "pointer" }}
+              style={{ height: "45px", width: "45px", cursor: "pointer" }}
               onClick={handleClickGithub}
             />{" "}
             <AiOutlineLinkedin
-              style={{ height: "70%", width: "15%", cursor: "pointer" }}
+              style={{ height: "50px", width: "50px", cursor: "pointer" }}
               type="button"
               onClick={handleClickLinkedin}
             />{" "}

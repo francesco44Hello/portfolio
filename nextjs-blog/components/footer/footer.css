@@ -1,12 +1,13 @@
 .footer-div {
     display: flex;
-    height: 100%;
+    min-height: 80px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     align-content: center;
     gap: 35px;
-    padding-right: 2%;
+    padding-right: 30px;
+    padding-left: 30px;
     background-color: #1D222A;
 }
 .footer {
@@ -16,6 +17,7 @@
     margin-left: 2rem;
     margin-right: 1rem;
     background-color: #1D222A;
+    min-height: 80px;
 }
 footer {
     display: flex;
@@ -38,16 +40,15 @@ footer {
     height: 100%;
     margin: 0;
     padding: 0;
-    padding-top: 3%;
     font-weight: 300;
     font-size: medium;
   }
   .links-footer {
     display: flex;
     height: 100%;
-    width: 40%;
+    width: 25%;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
   }
 svg:hoover {
     color: #00ADB5

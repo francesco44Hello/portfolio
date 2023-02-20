@@ -20,6 +20,8 @@
     transition: all .14s ease-out;
     white-space: nowrap;
     font-weight: 700;
+    min-width: 100px;
+    max-width: 120px;
     
 }
 

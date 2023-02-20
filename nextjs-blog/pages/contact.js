@@ -67,22 +67,22 @@ export default function Contact() {
         <div className="contact-right-page">
           <h1 style={{ color: "#eeeeee" }}>Find me elsewhere</h1>
           <button
-            className="github-p button"
+            className="contact-button"
             onClick={handleClickLinkedin}
-            style={{ width: "50%", borderRadius: "4px" }}
+            // style={{ width: "50px", borderRadius: "4px" }}
           >
             <BsLinkedin
-              style={{ height: "100%", width: "100%" }}
+              style={{ height: "50px", width: "50px" }}
               type="button"
             />
             @francescolongo
           </button>
           <button
-            className="github-p button"
+            className="contact-button"
             onClick={handleClickGithub}
             style={{ width: "50%", borderRadius: "4px" }}
           >
-            <BsGithub style={{ height: "100%", width: "100%" }} />
+            <BsGithub style={{ height: "50px", width: "50px" }} />
             @francesco44hello
           </button>
         </div>

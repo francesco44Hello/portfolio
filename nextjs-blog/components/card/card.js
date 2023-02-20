@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Card = ({title,onClick, handleRepo,img }) => {
     
     return (
-        <div className='card '>
+        <div className='card'>
             <>
             <Image src={img} width={1000} height={1000} alt='project-picture'></Image>
             </>

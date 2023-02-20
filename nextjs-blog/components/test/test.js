@@ -1,145 +1,60 @@
-  // core version + navigation, pagination modules:
-  import Swiper, { Navigation, Pagination } from 'swiper';
-  import { useState, useEffect } from 'react'
-  import Card from "../card/card";
-   // import Swiper and modules styles
-  import 'swiper/css';
-  import 'swiper/css/navigation';
-  import 'swiper/css/pagination';
-
-import {
-  snapvoteClick,
-  weatherClickRepo,
-  snapvoteClickRepo,
-  weatherClick,
-} from "../functions/functions";
-
-
-
-const TestComponent = () => {
-  const [hydrated, setHydrated] = useState(false);
-  useEffect(() => {
-      setHydrated(true);
-  }, []);
-  if (!hydrated) {
-    // Returns null on first render, so the client and server match
-    return null;
-}
-
-  const swiper = new Swiper(".swiper", {
-    // Optional parameters
-    direction: "horizontal",
-    loop: true,
-
-    // If we need pagination
-    pagination: {
-      el: ".swiper-pagination",
-    },
-
-    // Navigation arrows
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-      el: ".swiper-scrollbar",
-    },
-  });
+import React from "react";
+import { SiTypescript } from "react-icons/si";
+import CardTest from "./testCard";
+const componentName = () => {
   return (
-    <div className='main-div-projects'>
-    <div class="swiper">
-      {/* <!-- Additional required wrapper --> */}
-      <div class="swiper-wrapper">
-        {/* <!-- Slides --> */}
-        {/* <Card class="swiper-slide"/>
-        <Card class="swiper-slide"/> */}
-        <Card 
-           title="Snap-vote"
-          onClick={snapvoteClick}
-          handleRepo={snapvoteClickRepo}
-          img="https://i.ibb.co/fMG4LG9/91-B83712-E5-A4-4-D72-9784-9-BD17-A9-DB383.jpg"
+    <div className="projcard-container">
+      <div className="projcard projcard-blue">
+        <CardTest
+          title="PetBrB"
+          img="/petbrb.png"
+          Subtitle="Connecting Pet Owners with Trusted Sitters"
+          label1="NextJs"
+          label2="JavaScript"
+          label3="ElephantSQL"
+          label4="NextAuth"
+          description="Petbrb is a mobile app that connects pet owners with trusted pet sitters. The app allows pet owners to easily find and book pet sitters based on location, availability, and other important criteria. Pet sitters can create profiles showcasing their experience, skills, and availability, and set their own rates. Petbrb is a valuable tool for both pet owners and sitters, simplifying the process of finding and booking reliable pet care services."
+          link="https://petbrb.vercel.app/"
         />
-        <Card  
-           title="Weather App"
-          onClick={weatherClick}
-          handleRepo={weatherClickRepo}
-          img="https://i.ibb.co/QkBqBsn/Image-31-12-2022-at-16-21.png"
-        />
-        {/* <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div> */}
-        
       </div>
-      {/* <!-- If we need pagination --> */}
-      <div class="swiper-pagination"></div>
 
-      {/* <!-- If we need navigation buttons --> */}
-      {/* <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div> */}
+      <div className="projcard projcard-green">
+        <CardTest
+          title="Weather app"
+          img="/weather-app.png"
+          Subtitle=" Real-Time Forecasts for Any City"
+          label1="React"
+          label2="TypeScript"
+          label3="API"
+          label4="CSS"
+          description="This weather app is a TypeScript and React-based application designed to provide users with up-to-date weather information for different cities. Users can search for cities to get accurate weather forecasts, including temperature, humidity, wind speed, and more. The app utilizes APIs to pull real-time data and dynamically update the displayed information. This app is a great example of my skills in building scalable and efficient TypeScript and React applications."
+          link="https://francesco-weather.vercel.app/"
+        />
+      </div>
+      <div className="projcard projcard-red">
+        <CardTest
+          title="SnapVote"
+          img="/snapvote.png"
+          Subtitle="Simplifying Group Decision-Making"
+          label1="React"
+          label2="JavaScript"
+          label3="Figma"
+          label4="Custom Hooks"
+          description="SnapVote is a team project that aims to simplify the decision-making process. The app allows users to input the number of voters and the topic to be voted on. Users can then post pros and cons for each option, and at the end, everyone can vote. SnapVote streamlines the process of organizing a vote, making it easy to collect and count votes from multiple people in a fast and efficient manner. This app is an excellent example of my collaborative skills as a developer and my ability to create intuitive and user-friendly applications."
+          link="https://snap-vote.netlify.app/"
+        />
+      </div>
 
-      {/* <!-- If we need scrollbar --> */}
-      <div class="swiper-scrollbar"></div>
-      <script type="module">
-        import Swiper from
-        'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
-        const swiper = new Swiper(...)
-      </script>
-    </div>
+      {/* <div class="projcard projcard-customcolor">
+        <CardTest
+        title='News App'
+        label1='NextJs' 
+        label2='JavaScript'
+        />
+        
+      </div> */}
     </div>
   );
 };
 
-export default TestComponent;
-{/* <>
-      
-<section class="mt-5">
-  <div class="container">...</div>
-</section>
-<section class="section-with-carousel section-with-right-offset position-relative mt-5">
-  <div class="container">
-    <h2 class="mb-3">...</h2>
-  </div> 
-  <div class="carousel-wrapper">
-    <div class="swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <figure>
-            <img width="640" height="480" src="tanzania1.jpg" alt="" />
-            <figcaption>
-              <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
-                <path d="M12 13.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"></path>
-                <path fill-rule="evenodd" d="M19.071 3.429C15.166-.476 8.834-.476 4.93 3.429c-3.905 3.905-3.905 10.237 0 14.142l.028.028 5.375 5.375a2.359 2.359 0 003.336 0l5.403-5.403c3.905-3.905 3.905-10.237 0-14.142zM5.99 4.489A8.5 8.5 0 0118.01 16.51l-5.403 5.404a.859.859 0 01-1.214 0l-5.378-5.378-.002-.002-.023-.024a8.5 8.5 0 010-12.02z"></path>
-              </svg>
-              Nungwi, Zanzibar, Tanzania
-            </figcaption>
-          </figure>
-        </div>
-        {/* <!-- more slides here --> */}
-  //     </div>
-  //   </div>
-  // </div>
-  // <div class="carousel-controls">
-  //   <button class="carousel-control carousel-control-left" type="button">
-  //     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40">
-  //       <path fill-rule="evenodd" d="M10.78 19.03a.75.75 0 01-1.06 0l-6.25-6.25a.75.75 0 010-1.06l6.25-6.25a.75.75 0 111.06 1.06L5.81 11.5h14.44a.75.75 0 010 1.5H5.81l4.97 4.97a.75.75 0 010 1.06z"></path>
-  //     </svg>
-  //   </button>
-  //   <button class="carousel-control carousel-control-right" type="button">
-  //     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40">
-  //       <path fill-rule="evenodd" d="M13.22 19.03a.75.75 0 001.06 0l6.25-6.25a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 10-1.06 1.06l4.97 4.97H3.75a.75.75 0 000 1.5h14.44l-4.97 4.97a.75.75 0 000 1.06z"></path>
-      {/* </svg>
-    </button>
-  </div>
-  <div class="swiper-pagination"></div>
-</section>
-<section class="mt-5">
-  <div class="container">...</div>
-</section>
-<section class="section-with-carousel section-with-left-offset position-relative mt-5">
-  {/* <!-- content same as second section --> */}
-{/* // </section> */}
-// {/* //     </>
-//   )
-// } } } } *
+export default componentName;
