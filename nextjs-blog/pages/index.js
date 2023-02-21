@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
         <div className="img-div">
-          <Image src="/peep-home.png" width={1000} height={1000}></Image>
+          <Image src="/peep-home.png" width={1000} height={1000} alt='profile image'></Image>
         </div>
       </div>
       <Footer />

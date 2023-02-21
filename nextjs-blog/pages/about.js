@@ -49,7 +49,7 @@ export default function About() {
             </p>
           </div>
           <div className="about-img-div">
-            <Image src="/peep-home2.png" width={1000} height={1000}></Image>
+            <Image src="/peep-home2.png" width={1000} height={1000} alt='profile image'></Image>
           </div>
         </div>
       </div>
