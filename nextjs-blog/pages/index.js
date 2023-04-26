@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="keywords" content="Francesco Longo title, meta, nextjs" />
         <meta name="author" content="Francesco Longo" />
         <meta name="viewport" content="Francesco Longo width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Francesco Longo Portfolio" />
+        <meta name="description" content="Francesco Longo Portfolio google-site-verification: googlefcf83ccae9de34f1.html" />
       </Head>
 
       <div className="main-div">
