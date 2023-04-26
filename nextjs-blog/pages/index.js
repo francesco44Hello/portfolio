@@ -12,10 +12,10 @@ export default function Home() {
         <title>Home page</title>
 
         <meta charset="UTF-8" />
-        <meta name="keywords" content="title, meta, nextjs" />
+        <meta name="keywords" content="Francesco Longo title, meta, nextjs" />
         <meta name="author" content="Francesco Longo" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Portfolio" />
+        <meta name="viewport" content="Francesco Longo width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Francesco Longo Portfolio" />
       </Head>
 
       <div className="main-div">
@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
         <div className="img-div">
-          <Image src="/peep-home.png" width={1000} height={1000} alt='profile image'></Image>
+          <Image src="/peep-home.png" width={1000} height={1000} alt='Francesco Longo profile image'></Image>
         </div>
       </div>
       <Footer />

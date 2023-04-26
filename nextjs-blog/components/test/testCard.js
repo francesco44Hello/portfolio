@@ -5,7 +5,7 @@ const CardTest = ({title, img, Subtitle, label1, label2, label3, label4, descrip
     return (
         <div className="projcard-innerbox">
         <a href={link} alt='link' target='_blank' style={{textDecoration: 'none', color: 'black'}}>
-        <Image className="projcard-img" src={img} width={2000} height={2000} alt='project image'/>
+        <Image className="projcard-img" src={img} width={2000} height={2000} alt='Francesco Longo project image'/>
         <div className="projcard-textbox">
           <div className="projcard-title">{title}</div>
           <div className="projcard-subtitle">{Subtitle}</div>

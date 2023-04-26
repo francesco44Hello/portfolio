@@ -10,7 +10,7 @@ export default function Layout() {
     <div className="navbar">
     <Link    style={{ textDecoration: "none", marginLeft: '30px' }}
           href="/" >
-      <Image src='/portfolio_Logo.png' width={1000} height={1000} className='logo-image' alt="logo"></Image>
+      <Image src='/portfolio_Logo.png' width={1000} height={1000} className='logo-image' alt="Francesco Longo logo"></Image>
     </Link>
    
       <div className="navbar-elements">
