@@ -9,7 +9,7 @@ export default function Home() {
       <Layout></Layout>
 
       <Head>
-        <title>Home page</title>
+        <title>Francesco Longo</title>
 
         <meta charset="UTF-8" />
         <meta name="keywords" content="Francesco Longo title, meta, nextjs" />
