@@ -15,7 +15,7 @@ const Footer = () => {
             This website is{" "}
             <a
               href="https://www.websitecarbon.com/website/francesco-longo-vercel-app/"
-              alt="link"
+              alt="Francesco Longo link"
               target="_blank"
               style={{
                 color: "#eeeeee",

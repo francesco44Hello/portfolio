@@ -9,7 +9,7 @@ export default function Layout() {
   return (
     <div className="navbar">
     <Link    style={{ textDecoration: "none", marginLeft: '30px' }}
-          href="/" >
+          href="/" alt='Francesco Longo' >
       <Image src='/portfolio_Logo.png' width={1000} height={1000} className='logo-image' alt="Francesco Longo logo"></Image>
     </Link>
    
@@ -19,6 +19,7 @@ export default function Layout() {
           // activeClassName="active"
           className="links"
           href="/about"
+          alt='Francesco Longo'
         >
           About
         </Link>
@@ -27,6 +28,7 @@ export default function Layout() {
           // activeClassName="active"
           className="links"
           href="/projects"
+          alt='Francesco Longo'
         >
           Projects
         </Link>
@@ -35,6 +37,7 @@ export default function Layout() {
           // activeClassName="active"
           className="links"
           href="/contact"
+          alt='Francesco Longo'
         >
           Contacts
         </Link>
