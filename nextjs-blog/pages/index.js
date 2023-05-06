@@ -2,11 +2,12 @@ import Head from "next/head";
 import Layout from "../components/layout/layout";
 import Footer from "../components/footer/footer";
 import Image from "next/image";
+import HamburgerMenu from "../components/burger/burger";
 
 export default function Home() {
   return (
     <>
-      <Layout></Layout>
+      <HamburgerMenu></HamburgerMenu>
 
       <Head>
         <title>Francesco Longo</title>

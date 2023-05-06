@@ -10,6 +10,7 @@ import "../components/cardbutton/cardbutton.css";
 import "../components/footer/footer.css";
 import "../styles/test.css"
 import '../components/test/test.css'
+import '../styles/burger.css'
 
 
 export default function App({ Component, pageProps }) {
