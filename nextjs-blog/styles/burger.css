@@ -8,6 +8,7 @@
   cursor: pointer;
   position: relative;
   z-index: 1;
+  left: 50px;
 }
 
 .hamburger-button.open .hamburger-icon .hamburger-line:nth-child(1) {
@@ -63,7 +64,7 @@
 
 .menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: absolute;
   top: 100%;
   left: 0;

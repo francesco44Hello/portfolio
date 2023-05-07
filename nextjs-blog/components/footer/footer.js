@@ -16,7 +16,7 @@ const Footer = () => {
       <footer>
         <div className="footer-div">
           <h2>
-            This website is{" "}
+            This website is  {" "}
             <a
               href="https://www.websitecarbon.com/website/francesco-longo-vercel-app/"
               alt="Francesco Longo link"
