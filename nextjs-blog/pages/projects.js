@@ -25,13 +25,13 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { DiCss3 } from "react-icons/di";
 import { FiFigma } from "react-icons/fi";
-import { Audio } from "react-loader-spinner";
 import CardTest from "../components/test/testCard";
+import HamburgerMenu from "../components/burger/burger";
 
 export default function Projects() {
   return (
     <>
-      <Layout></Layout>
+      <HamburgerMenu/>
       <Head>
         <title>Projects</title>
         <meta charset="UTF-8" />

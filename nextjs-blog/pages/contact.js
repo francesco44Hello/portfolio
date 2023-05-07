@@ -1,8 +1,7 @@
-import Link from "next/link";
 import Head from "next/head";
-import Layout from "../components/layout/layout";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import Footer from "../components/footer/footer";
+import HamburgerMenu from "../components/burger/burger";
 
 
 const email = process.env.REACT_APP_EMAIL;
@@ -24,7 +23,7 @@ export default function Contact() {
   }
   return (
     <>
-      <Layout></Layout>
+      <HamburgerMenu />
       
       <Head>
           <title>Contact page</title>

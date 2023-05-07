@@ -46,7 +46,7 @@ function HamburgerMenu() {
       </button>
       <nav className={`menu ${isMenuOpen ? 'open' : ''}`}>
         <ul className='links-list' style={{listStyleType: 'none'}}>
-          <li><Link className='links' href="index" style={{textDecoration: 'none'}}>Home</Link></li>
+          <li><Link className='links' href="/" style={{textDecoration: 'none'}}>Home</Link></li>
           <li><Link className='links' href="about" style={{textDecoration: 'none'}}>About me</Link></li>
           <li><Link className='links' href="projects" style={{textDecoration: 'none'}}>Projects</Link></li>
           <li><Link className='links' href="contact" style={{textDecoration: 'none'}}>Contact</Link></li>

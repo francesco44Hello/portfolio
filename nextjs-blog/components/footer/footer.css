@@ -50,6 +50,6 @@ footer {
     align-items: center;
     justify-content: space-around;
   }
-svg:hoover {
-    color: #00ADB5
+  .links-footer > svg:hover {
+    color: #77FF04
   }

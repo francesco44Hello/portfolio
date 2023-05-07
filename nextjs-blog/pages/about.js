@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Layout from "../components/layout/layout";
+import HamburgerMenu from "../components/burger/burger";
 import Footer from "../components/footer/footer";
 import Image from "next/image";
 
 export default function About() {
   return (
     <>
-      <Layout></Layout>
+      <HamburgerMenu></HamburgerMenu>
       <Head>
         <title>About me</title>
         <meta charset="UTF-8" />
