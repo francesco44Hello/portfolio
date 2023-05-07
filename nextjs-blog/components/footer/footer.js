@@ -32,7 +32,7 @@ const Footer = () => {
             @ - 2023 Francesco Longo{" "}
             <FiGithub
               style={{ height: "45px", width: "45px", cursor: "pointer" }}
-              onClick={handleClickGithub}
+              onClick={()=> tester}
             />{" "}
             <AiOutlineLinkedin
               style={{ height: "50px", width: "50px", cursor: "pointer" }}
