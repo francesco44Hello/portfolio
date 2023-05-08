@@ -1,21 +1,17 @@
 import React from "react";
 import { FiGithub } from "react-icons/fi";
 import {
-  handleClickGithub,
-  handleClickLinkedin,
   linksFunction
 } from "../../components/functions/functions";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import PropTypes from 'prop-types';
+import styles from '../../styles/Footer.module.css'
 
 const Footer = () => {
-  const githubLink = 'https://github.com/francesco44Hello'
-  // const handleClick1 = tester(githubLink)
   return (
-    <div className="footer">
-      <footer>
-        <div className="footer-div">
-          <h2>
+    <div className={styles.footer}>
+      <footer className={styles.footerComponent}>
+        <div className={styles.footerDiv}>
+          <h2 className={styles.footerH2}>
             This website is  {" "}
             <a
               href="https://www.websitecarbon.com/website/francesco-longo-vercel-app/"
@@ -31,7 +27,7 @@ const Footer = () => {
               sustainable
             </a>
           </h2>
-          <div className="links-footer">
+          <div className={styles.linksFooter}>
             {" "}
             @ - 2023 Francesco Longo{" "}
             <FiGithub

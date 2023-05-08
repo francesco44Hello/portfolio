@@ -1,4 +1,4 @@
-/* .footer-div {
+.footerDiv {
     display: flex;
     min-height: 80px;
     width: 100%;
@@ -19,7 +19,7 @@
     background-color: #1D222A;
     min-height: 80px;
 }
-footer {
+.footerComponent {
     display: flex;
     position: absolute;
     flex-direction: row;
@@ -34,7 +34,7 @@ footer {
     margin-right: 2px;
     
   }
-  .footer-div h2 {
+  .footerH2 {
     color: #eeeeee;
     display: flex;
     height: 100%;
@@ -43,13 +43,13 @@ footer {
     font-weight: 300;
     font-size: medium;
   }
-  .links-footer {
+  .linksFooter {
     display: flex;
     height: 100%;
     width: 25%;
     align-items: center;
     justify-content: space-around;
   }
-  .links-footer > svg:hover {
+  .linksFooter > svg:hover {
     color: #77FF04
-  } */
+  }

@@ -2,7 +2,7 @@ import Head from "next/head";
 import HamburgerMenu from "../components/burger/burger";
 import Footer from "../components/footer/footer";
 import Image from "next/image";
-
+import styles from '../styles/about.module.css'
 export default function About() {
   return (
     <>
@@ -14,9 +14,9 @@ export default function About() {
         <meta name="author" content="Francesco Longo" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <div className="first-main-div">
-        <div className="main-about-div">
-          <div className="about-text">
+      <div className={styles.firstMainDiv}>
+        <div className={styles.mainAboutDiv}>
+          <div className={styles.aboutText}>
             <h1>About me</h1>
             <p>
               I am a passionate developer who is always eager to learn and grow
@@ -48,7 +48,7 @@ export default function About() {
               and I am open to new challenges and opportunities.
             </p>
           </div>
-          <div className="about-img-div">
+          <div className={styles.aboutImgDiv}>
             <Image src="/peep-home2.png" width={1000} height={1000} alt='Francesco Longo profile image'></Image>
           </div>
         </div>

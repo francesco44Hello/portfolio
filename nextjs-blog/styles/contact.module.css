@@ -1,4 +1,4 @@
-/* .contact-main-div {
+.contactMainDiv {
     display: flex;
     min-height: 80vh;
     width: 100%;
@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.contact-left-page {
+.contactLeftPage {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -18,7 +18,7 @@
     justify-content: space-around;
 }
 
-.contact-right-page {
+.contactRightPage {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -36,7 +36,7 @@
     align-items: center;
 }
 
-form {
+.formTag {
     display: flex;
     height: 80%;
     width: 60%;
@@ -45,7 +45,7 @@ form {
     justify-content: space-around;
 }
 
-input, textarea {
+.inputTag, .textareaTag, .input {
 
     padding: 6px 12px;
     font-size: 16px;
@@ -60,10 +60,10 @@ input, textarea {
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     width: 85%;
 }
-textarea {
+.textareaTag {
     max-width: 85%;
 }
-input:focus {
+.input:focus {
     color: #212529;
     background-color: #EEEEEE;
     border-color: #00ADB5;
@@ -103,12 +103,12 @@ input:focus {
     transform: translate(-4px, -4px);
 }
 
-:focus-visible {
+/* :focus-visible {
     outline-offset: 1px;
-}
+} */
 
 
-.github-p {
+.githubP {
     display: flex;
     align-items: center;
     align-content: space-around;
@@ -124,14 +124,14 @@ input:focus {
     margin-top: 20px;
     font-family: 'Roboto', sans-serif;
 }
-.text-input {
+.textInput {
     display: flex;
     align-items: flex-start;
     text-align: start;
     justify-content: center;
     text-justify: distribute-all-lines;
 }
-.contact-button{
+.contactButton{
     outline: 0;
     grid-gap: 8px;
     align-items: center;
@@ -159,7 +159,7 @@ input:focus {
     justify-content: space-around;
     margin-top: 10px;
 }
-.contact-button:hover {
+.contactButton:hover {
     box-shadow: 4px 4px 0 #EC7495;
     transform: translate(-4px, -4px);
-} */
+}
