@@ -1,16 +1,5 @@
-
 import Head from "next/head";
-import Layout from "../components/layout/layout";
-import {
-  snapvoteClick,
-  weatherClickRepo,
-  snapvoteClickRepo,
-  weatherClick,
-  petbrb,
-  petbrbGithub,
-} from "../components/functions/functions";
 import Footer from "../components/footer/footer";
-import Card from "../components/card/card";
 import { TbBrandJavascript } from "react-icons/tb";
 import {
   SiTypescript,
@@ -25,10 +14,16 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { DiCss3 } from "react-icons/di";
 import { FiFigma } from "react-icons/fi";
-import CardTest from "../components/test/testCard";
 import HamburgerMenu from "../components/burger/burger";
+import React from "react";
+import { useState } from "react";
+import Example from "../components/modal/modal.js";
+import CardTest from "../components/test/testCard";
 
 export default function Projects() {
+
+  const [modalShow, setModalShow] = useState(false);
+
   return (
     <>
       <HamburgerMenu/>
@@ -43,7 +38,17 @@ export default function Projects() {
 
       
         <h1 className='project-page-title'>Portfolio: Examples of My Work as a Developer</h1>
-    <div className="projcard-container">
+        {/* <StaticExample/> */}
+     {/* <Example /> */}
+        {/* <Button variant="primary" onClick={() => setModalShow(true)}>
+        Launch vertically centered modal
+      </Button> */}
+
+      {/* <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      /> */}
+     <div className="projcard-container"> 
       <div className="projcard projcard-blue">
         <CardTest
           title="PetBrB"
@@ -84,38 +89,9 @@ export default function Projects() {
           link="https://snap-vote.netlify.app/"
         />
       </div>
-
-      {/* <div class="projcard projcard-customcolor">
-        <CardTest
-        title='News App'
-        label1='NextJs' 
-        label2='JavaScript'
-        />
-        
-      </div> */}
-    </div>
-  );
-    
-      {/* <div className="card-container">
-        <Card
-          title="PetBrB"
-          onClick={petbrb}
-          handleRepo={petbrbGithub}
-          img="/petbrb.png"
-        />
-        <Card
-          title="Weather App"
-          onClick={weatherClick}
-          handleRepo={weatherClickRepo}
-          img="/weather-app.png"
-        />
-        <Card
-          title="Snap-vote"
-          onClick={snapvoteClick}
-          handleRepo={snapvoteClickRepo}
-          img="/snapvote.png"
-        ></Card>
-      </div> */}
+    </div> 
+  
+   
       <div className="toolset">
 
       

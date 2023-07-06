@@ -1,0 +1,6 @@
+- convert all css files into css modules []
+- fix css on contact page []
+- find solution on projet page for project cards: 
+    - they need to be responsive, find a way to implement UI Libraries without crashing Next.js and use their Modals
+- Add atomovies project instead of SnapVote []
+- Make whole portfolio a scrollable page []

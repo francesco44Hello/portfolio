@@ -49,7 +49,7 @@ export default function About() {
             </p>
           </div>
           <div className={styles.aboutImgDiv}>
-            <Image src="/peep-home2.png" width={1000} height={1000} alt='Francesco Longo profile image'></Image>
+            <img src="/peep-home2.png" width={1000} height={1000} alt='Francesco Longo profile image'></img>
           </div>
         </div>
       </div>
