@@ -4,6 +4,7 @@ import Footer from "../components/footer/footer";
 import Image from "next/image";
 import HamburgerMenu from "../components/burger/burger";
 import styles from '../styles/Home.module.css'
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -47,6 +48,15 @@ export default function Home() {
           <img src="/peep-home.png" width={1000} height={1000} alt='Francesco Longo profile image'></img>
         </div>
       </div>
+      <Link
+          style={{ textDecoration: "none" }}
+          // activeClassName="active"
+          className="links"
+          href="/about"
+          alt='Francesco Longo'
+        >
+          
+        </Link>
       <Footer />
     </>
   );

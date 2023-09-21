@@ -34,7 +34,7 @@ export default function Contact() {
       </Head>
       <div className={styles.contactMainDiv}>
         <div className={styles.contactLeftPage}>
-          <form className="formTag" action={`https://formsubmit.co/francescolongo44@gmail.com`} method="POST">
+          <form className={styles.formTag} action={`https://formsubmit.co/francescolongo44@gmail.com`} method="POST">
             <h1 style={{ color: "#eeeeee" }}>Send me an Email</h1>
             <input
               type="text"
