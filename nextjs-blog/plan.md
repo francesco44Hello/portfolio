@@ -1,6 +1,12 @@
-- convert all css files into css modules []
-- fix css on contact page []
+- convert all css files into css modules [x]
+- fix css on contact page [x]
 - find solution on projet page for project cards: 
-    - they need to be responsive, find a way to implement UI Libraries without crashing Next.js and use their Modals
-- Add atomovies project instead of SnapVote []
-- Make whole portfolio a scrollable page []
+    - they need to be responsive, find a way to implement UI Libraries without crashing Next.js and use their Modals [x]
+- Make whole portfolio a scrollable page [x]
+- Add atomovies project instead of SnapVote [] --> atomovie stopped working so not possible anymore
+- Fix CSS of the whole page to get the full widht of display []
+- Add margin top to mobile version []
+- Add Media queries for project section []
+- Align and centre About and Home section on desktop version []
+- put logo back in Navbar Instead of Home []
+- invert footer elements in mobile version []

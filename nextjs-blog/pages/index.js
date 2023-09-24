@@ -1,27 +1,30 @@
 import Head from "next/head";
-import Layout from "../components/layout/layout";
+import Layout from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
-import Image from "next/image";
-import HamburgerMenu from "../components/burger/burger";
-import styles from '../styles/Home.module.css'
-import Link from "next/link";
+import styles from "../styles/Home.module.css";
+import About from "../components/about/about.js";
+import Projects from "../components/projects/projects";
+import Contacts from "../components/contacts/contacts";
 
 export default function Home() {
   return (
     <>
-      <HamburgerMenu></HamburgerMenu>
-
+      <Layout></Layout>
       <Head>
         <title>Francesco Longo</title>
-
         <meta charset="UTF-8" />
         <meta name="keywords" content="Francesco Longo title, meta, nextjs" />
         <meta name="author" content="Francesco Longo" />
-        <meta name="viewport" content="Francesco Longo width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Francesco Longo Portfolio google-site-verification: googlefcf83ccae9de34f1.html" />
+        <meta
+          name="viewport"
+          content="Francesco Longo width=device-width, initial-scale=1.0"
+        />
+        <meta
+          name="description"
+          content="Francesco Longo Portfolio google-site-verification: googlefcf83ccae9de34f1.html"
+        />
       </Head>
-
-      <div className={styles.mainDiv}>
+      <div className={styles.mainDiv} id="home">
         <div className={styles.leftPageDiv}>
           <>
             {" "}
@@ -45,18 +48,17 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.imgDiv}>
-          <img src="/peep-home.png" width={1000} height={1000} alt='Francesco Longo profile image'></img>
+          <img
+            src="/peep-home.png"
+            width={1000}
+            height={1000}
+            alt="Francesco Longo profile image"
+          ></img>
         </div>
       </div>
-      <Link
-          style={{ textDecoration: "none" }}
-          // activeClassName="active"
-          className="links"
-          href="/about"
-          alt='Francesco Longo'
-        >
-          
-        </Link>
+      <About></About>
+      <Projects></Projects>
+      <Contacts />
       <Footer />
     </>
   );

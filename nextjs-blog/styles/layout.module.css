@@ -1,0 +1,71 @@
+/* components/Navbar.module.css */
+.navbar {
+    background-color: rgb(29 34 42 / 93%); /* Use rgba to specify background color with opacity */
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for background color and box-shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 80px;
+    margin-bottom: 50px;
+  }
+  .navbar:hover {
+    background-color: #1D222A;
+  }
+  
+  .navContainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    /* padding: 10px 20px; */
+  }
+  
+  .navLink {
+    color: #eeeeee;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+  
+  .navLink:hover {
+    color: #00ADB5;
+  }
+  
+  .toggleButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+  }
+  
+  .toggleIcon {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    transition: transform 0.3s;
+  }
+  
+  @media (max-width: 768px) {
+    .toggleButton {
+      display: block;
+    }
+  
+    
+  
+    .navLink {
+      margin: 10px 0;
+    }
+  }
+  

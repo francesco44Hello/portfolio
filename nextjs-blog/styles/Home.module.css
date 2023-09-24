@@ -5,6 +5,8 @@
   width: 100%;
   height: 80%;
   flex-direction: row;
+  margin-top: 60px;
+  scroll-behavior: smooth;
 }
 
 .leftPageDiv {
@@ -145,6 +147,7 @@
     /* min-height: 100%; */
     justify-content: center;
     gap: 50px;
+    margin-top: 50px;
   }
   .imgDiv > img {
     width: 100%;
