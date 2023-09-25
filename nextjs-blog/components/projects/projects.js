@@ -27,7 +27,7 @@ export default function Projects() {
         </h1>
         <div className={styles.modalContainer}>
           <div className={styles.modalSubContainer}>
-            {/* <Modal
+            <Modal
               title="Weather App"
               img="/weather-app.png"
               description="This TypeScript and React-based weather app provides real-time weather data for various cities. Users can conveniently search for cities to access detailed weather forecasts, including temperature, humidity, wind speed, and more. The application uses APIs to efficiently fetch and update weather information. It demonstrates my skills in building TypeScript and React applications for practical use."
@@ -53,7 +53,7 @@ Skills: JavaScript, React, CSS"
 Skills: JavaScript, Next.JS, BootStrap, ElephantSQL, NodeJS"
               link="https://petbrb.vercel.app/"
               repo="https://github.com/SchoolOfCode/bc13_final-project_front-end-refactor"
-            /> */}
+            />
           </div>
         </div>
         <div className={styles.toolset}>
