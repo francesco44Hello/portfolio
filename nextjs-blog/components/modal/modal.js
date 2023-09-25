@@ -12,12 +12,13 @@ export default function Modal({ title, img, description, subheader, link, repo }
     
     <Card sx={{ maxWidth: 345 }}>
     <a href={link} alt='link to project' style={{textDecoration: 'none'}} target='_blank'>
-    <CardActionArea>
+    <CardActionArea aria-label="Card">
       <CardMedia
         component="img"
         height="140"
         image={img}
         alt="project snapshot"
+        aria-label="Card"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" style={{color: 'black'
@@ -31,8 +32,8 @@ export default function Modal({ title, img, description, subheader, link, repo }
     </CardActionArea>
     </a>
     <CardActions>
-      <Button size="small" color="primary">
-        <a href={repo} alt='repo link' target='_blank' >
+      <Button size="small" color="primary" aria-label="Card">
+        <a href={repo} alt='link to github repo' target='_blank' >
         <GitHubIcon style={{color: 'black'}}/>
         </a>
       </Button>

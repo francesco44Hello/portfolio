@@ -148,6 +148,8 @@
     justify-content: center;
     gap: 50px;
     margin-top: 50px;
+    margin-top: 200px;
+    height: 50vh;
   }
   .imgDiv > img {
     width: 100%;

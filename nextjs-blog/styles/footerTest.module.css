@@ -1,0 +1,60 @@
+.footer {
+    /* border: 1px solid red; */
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sustainableDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    height: 100%;
+    width: 400px;
+}
+
+.sustainableLink {
+    color: #eeeeee;
+}
+
+.sustainableDiv > a {
+    text-decoration: none;
+}
+.copyrightLinks {
+    height: 100%;
+    width: 400px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #eeeeee;
+}
+.actualLinks:hover {
+    color: rgb(119, 255, 4);
+}
+.linkedinGitIcons {
+    height: 100%;
+    display: flex;
+    width: 200px;
+    /* border: 1px solid green; */
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+    }
+    .copyrightLinks {
+        justify-content: center;
+        height: 40%;
+    }
+    .sustainableDiv {
+        height: 40%;
+    }
+    .linkedinGitIcons {
+        justify-content: flex-end;
+    }
+}

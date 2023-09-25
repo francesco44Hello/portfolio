@@ -65,3 +65,21 @@
     justify-content: center;
     color: #00ADB5;
 } 
+@media only screen and (max-width: 600px) {
+    .projectPageTitle{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .modalContainer {
+        height: 500px;
+    }
+    .projectMainDiv {
+        height: 100vh;
+        justify-content: space-around;
+    }
+    .svgList {
+        text-align: center;
+        display: flex;
+    }
+}

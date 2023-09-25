@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import About from "../components/about/about.js";
 import Projects from "../components/projects/projects";
 import Contacts from "../components/contacts/contacts";
+import FooterTest from "../components/test/footer";
 
 export default function Home() {
   return (
@@ -59,7 +60,7 @@ export default function Home() {
       <About></About>
       <Projects></Projects>
       <Contacts />
-      <Footer />
+      <FooterTest />
     </>
   );
 }

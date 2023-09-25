@@ -25,7 +25,7 @@ const Contacts = () => {
           action={`https://formsubmit.co/francescolongo44@gmail.com`}
           method="POST"
         >
-          <h1 style={{ color: "#eeeeee" }}>Send me an Email</h1>
+          <h1>Get in touch :)</h1>
           <input
             type="text"
             name="name"

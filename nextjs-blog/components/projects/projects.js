@@ -59,11 +59,13 @@ Skills: JavaScript, Next.JS, BootStrap, ElephantSQL, NodeJS"
         <div className={styles.toolset}>
           <h1>My toolset includes: </h1>
           <h1
+          className="svgList"
             style={{
               color: "#77FF04",
               fontSize: "38px",
               padding: "0",
               margin: "0",
+              textAlign: 'center'
             }}
           >
             <TbBrandJavascript />

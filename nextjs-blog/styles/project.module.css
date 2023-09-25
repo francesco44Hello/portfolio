@@ -1,4 +1,4 @@
-.cardContainer {
+/* .cardContainer {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -39,4 +39,13 @@
     width: 100%;
     justify-content: center;
     color: #00ADB5;
+    color: red;
 } 
+@media only screen and (max-width: 600px) {
+    .projectPageTitle{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: black;
+    }
+} */

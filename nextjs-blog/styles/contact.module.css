@@ -163,6 +163,9 @@
     box-shadow: 4px 4px 0 #EC7495;
     transform: translate(-4px, -4px);
 }
+.formTag > h1 {
+    color: #eeeeee;
+}
 @media only screen and (max-width: 600px) {
     .contactMainDiv {
         margin-top: 40px;
@@ -170,7 +173,7 @@
     }
     .contactLeftPage {
         width: 100%;
-        height: 50%;
+        height: 70%;
     }
     .contactRightPage {
         width: 100%;
@@ -180,7 +183,16 @@
         width: 350px;
         height: 100%;
     }
+    .formTag > h1 {
+        color: #00ADB5;
+    }
     .contactButton {
         width: 350px;
+    }
+    .input {
+        height: 40px;
+    }
+    .contactRightPage {
+        display: none;
     }
 }
