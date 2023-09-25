@@ -1,0 +1,85 @@
+.modalContainer {
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* gap: 20px; */
+    /* overflow-x: auto; */
+    /* white-space: nowrap; */
+    /* white-space: nowrap;3 */
+    /* padding-left: 400px; */
+    /* position: absolute; */
+}
+.modalSubContainer{
+    display: flex;
+    width: 80%;
+    overflow-x: scroll;
+    gap: 50px;
+    /* border: 1px solid red; */
+    padding: 40px;
+    background-color: #181c22;
+    border-radius: 4px;
+}
+.cardContainer {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    min-height: 70vh;
+}
+.moreToCome {
+    display: flex;
+    justify-content: center;
+    color: #00ADB5;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.toolset {
+    color: #00ADB5;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -30px;
+    
+}
+.projectMainDiv {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}   
+.projectPageTitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #00ADB5;
+} 
+@media only screen and (max-width: 600px) {
+    .projectPageTitle{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .modalContainer {
+        height: 500px;
+    }
+    .projectMainDiv {
+        height: 100vh;
+        justify-content: space-around;
+    }
+    .svgList {
+        text-align: center;
+        display: flex;
+    }
+}

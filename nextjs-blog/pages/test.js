@@ -1,19 +1,13 @@
 import React from 'react'
+import Projects from '../components/projects/projects'
 import Footer from '../components/footer/footer'
-import Layout from '../components/layout/layout'
-import TestComponent from '../components/test/test'
-
-const page = () => {
+import FooterTest from '../components/test/footer'
+// import styles from "../../styles/modal.module.css";
+const Test = () => {
     return (
-        <>
-         <Layout>
-            
-         </Layout>
-         <TestComponent />
-         <Footer />
-        </>
-     
+        // <Projects/>
+        <FooterTest />
     )
 }
 
-export default page
+export default Test

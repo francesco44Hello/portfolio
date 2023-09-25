@@ -1,0 +1,19 @@
+/* .MuiTypography-root {
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 0;
+    margin-right: 0;
+    width: 100%;
+} */
+.MuiPaper-root {
+    min-width: 300px;
+    /* margin-left: 00px;  */
+    /* gap: 50px; */
+    position: relative;
+}
+.MuiCardContent-root {
+    background-color: #eeeeee;
+}
+.MuiCardActions-root {
+    background-color: #eeeeee;
+}
