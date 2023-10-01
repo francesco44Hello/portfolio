@@ -17,9 +17,18 @@
 }
 
 .sustainableLink {
+    font-size: 18px;
+    font-weight: 300;
     color: #eeeeee;
 }
 
+.sustainableLink::before {
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.sustainableLink:hover::before {
+    transform: scaleX(1);
+}
 .sustainableDiv > a {
     text-decoration: none;
 }
