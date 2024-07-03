@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .separatorText {
+    font-size: 4rem; /* Default font size */
+    font-weight: bold;
+    background-image: linear-gradient(to right, #9800fe, #11adb4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  @media (max-width: 768px) {
+    .separatorText {
+      font-size: 32px; /* Adjust font size for smaller screens */
+
+    }
+    .container{
+        padding-inline: 5%;
+    }
+  }
+  
