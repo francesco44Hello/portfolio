@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import styles from "./Separator.module.css";
+import styles from "./separator.module.css";
 
 const Separator = ({ text, id, direction, fontSize, marginTop }) => {
   const customStyles = {
