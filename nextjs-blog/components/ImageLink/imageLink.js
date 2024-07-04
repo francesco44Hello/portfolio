@@ -9,7 +9,7 @@ const ImageLink = () => {
       alt="Link to new Portfolio"
       style={{
         height: "400px",
-        width: "800px",
+        width: "80%",
         position: "relative",
         objectFit: "cover",
       }}
